@@ -1,11 +1,11 @@
 ---
-title: "Title"
+title: "California Urban and Agricultural Water Usage: an examination of the use of urban water usage to predict agricultural water usage"
 subtitle: "Subtitle"
-author: "Your Name"
-thanks: "Project repository available at: [https://github.com/peteragao/MATH261A-project-template](https://github.com/peteragao/MATH261A-project-template)."
+author: "Catharina Castillo"
+thanks: "Project repository available at: [https://github.com/NettleHook/Groundwater_Project.git](https://github.com/NettleHook/Groundwater_Project.git)."
 date: today
 date-format: long
-abstract: "Abstract here."
+abstract: "\"More specifically, a good recipe for an abstract is: first sentence: specify the general area of the paper and encourage the reader; second sentence: specify the dataset and methods at a general level; third sentence: specify the headline result; and a fourth sentence about implications\""
 format: pdf
 bibliography: references.bib
 ---
@@ -15,16 +15,49 @@ bibliography: references.bib
 #| warning: false
 #| message: false
 
-library(tidyverse)
-library(palmerpenguins)
+library(dplyr)
+library(ggplot2)
+water_use <- read.csv("../data/total_water_use_clean.csv")
 ```
 
 # Introduction
 
-# Data
+"The introduction should set the scene and give the reader some background. For instance, we typically start a little broader. This provides some context to the paper. We then describe how the paper fits into that context, and give some high-level results, especially focused on the one key result that is the main part of the story. We provide more detail here than we provided in the abstract, but not the full extent. And we broadly discuss next steps in a sentence or two. Finally, we finish the introduction with an additional short final paragraph that highlights the structure of the paper."
 
-# Methods
+# Data
+- explain justification behind using chosen dataset
+- provide graphs showing data behavior
+- tables providing summary statistics can be useful as well
+- all figures and graphs should be self-contained
+```{r}
+ggplot(water_use, aes(WUS_URBAN, WUS_AGRICULTURAL)) +
+  geom_point() +
+  labs(x = "Urban Water Use (acre-feet)", y = "Agricultural Water Use (acre-feet)")
+```
+
+
+# Model
+- give brief explanation of a linear regression model and how each term is applied in this project
+- this would also be where to include the diagnostic graphs that help us confirm if the model is appropriate for the data
+   - be concise and appropriate. Anything that doesn't add too much to the conversation can be added to the appendix
 
 # Results
 
+- this will be where to convey the model coefficients and any graphs showing off the results. Textbook advises leaving off any speculation about wider implications for a discussion section
+```{r}
+water_model <- lm(WUS_AGRICULTURAL ~ WUS_URBAN, water_use)
+summary(water_model)
+```
+
+# Discussion ( not included in sample doc )
+
+"The discussion section would typically begin with a sub-section that comprises a brief summary of what was done in the paper. This would be followed by two or three sub-sections that are devoted to the key things that we learn about the world from this paper. These sub-sections are the main opportunity to justify or detail the implications of the story being told in the paper. Typically, these sub-sections do not see newly introduced graphs or tables, but are instead focused on what we learn from those that were introduced in earlier sections. It may be that some of the results are discussed in relation to what others have found, and differences could be attempted to be reconciled here.
+
+Following these sub-sections of what we learn about the world, we would typically have a sub-section focused on some of the weaknesses of what was done. This could concern aspects such as the data that were used, the approach, and the model. In the case of the model we are especially concerned with those aspects that might affect the findings. This can be especially difficult in the case of machine learning models and Smith et al. (2022) provide guidance for aspects to consider. And the final sub-section is typically a few paragraphs that specify what is left to learn, and how future work could proceed."
+
+also noted that this should be about 25% of final report
+
 # References
+- self explanatory
+- should find some articles that will help me understand what's going on a bit better
+- also include all the references used to help determine if data was valid or not
