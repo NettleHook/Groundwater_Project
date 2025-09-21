@@ -9,8 +9,7 @@ Example project repository for MATH 261A.
 
 **Example statement:** The final report and code were written by [your name], but the following resources were used for preliminary research:
 
-* LLM-based chatbots (ex. ChatGPT Edu)
-* Online forums (ex. Stack Overflow).
+* Duckduck Go's LLM-based search assist was used to find articles giving background information about the measurement capabilities of urban water use and agricultural water use
 
 # Acknowledgments
 
