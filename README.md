@@ -3,7 +3,7 @@ Agricultural water use is harder to measure than urban water use due to limitati
 
 ## Data 
 
-Data used in this project was obtained from [California Open Data Portal](data.ca.gov). The data specifically used are collected through the Groundwater Sustainability Plan and are available [here](https://data.ca.gov/dataset/groundwater-sustainability-plan-annual-report-data/resource/d361ff20-b713-4f57-b3a4-65400933b0a1?inner_span=True) 
+Data used in this project was obtained from [California Open Data Portal](data.ca.gov). The data specifically used are collected through the Groundwater Sustainability Plan and are available [here](https://data.ca.gov/dataset/groundwater-sustainability-plan-annual-report-data/resource/d361ff20-b713-4f57-b3a4-65400933b0a1?inner_span=True). The data has been made publicly accessible, and no restrictions are placed on public use.
 
 ## External Resources
 
