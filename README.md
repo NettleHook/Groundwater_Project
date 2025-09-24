@@ -1,15 +1,14 @@
-# MATH261A-project-template
-Example project repository for MATH 261A.
+# Agricultural Water Use Predictions with Urban Water Use
 
 ## Data 
 
-**Example statement:** Data used in this project is obtained from [San Francisco Open Data](https://data.sfgov.org) who provide the data under the [Open Data Commons Public Domain Dedication and License](https://opendatacommons.org/licenses/pddl/1-0/).
+Data used in this project was obtained from [California Open Data Portal](data.ca.gov). The data specifically used are collected through the Groundwater Sustainability Plan and are available [here](https://data.ca.gov/dataset/groundwater-sustainability-plan-annual-report-data/resource/d361ff20-b713-4f57-b3a4-65400933b0a1?inner_span=True) 
 
 ## External Resources
 
-**Example statement:** The final report and code were written by [your name], but the following resources were used for preliminary research:
-
-* Duckduck Go's LLM-based search assist was used to find articles giving background information about the measurement capabilities of urban water use and agricultural water use
+The final report and code were written by Catharina Castillo, but the following resources were used for preliminary research:
+[Public Policy Institute of California](https://www.ppic.org/)
+[Department of Water Resource's Sustainabile Groundwater Management Plan Portal](https://sgma.water.ca.gov/portal/)
 
 # Acknowledgments
 
