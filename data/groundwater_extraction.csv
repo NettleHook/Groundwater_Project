@@ -1,0 +1,487 @@
+GSPAR_IDS,ALTAR_ID,REPORT_YEAR,BASIN_NAME,SUBBASIN_NUMBER,SINGLE_MULTIPLE_AR,ANNUAL_REPORT_AREA,TOTAL_GROUNDWATER_EXTRACTIONS,WUS_URBAN,WUS_INDUSTRIAL,WUS_AGRICULTURAL,WUS_MANAGED_WETLANDS,WUS_MANAGED_RECHARGE,WUS_VEGETATION,WUS_OTHER,WUS_OTHER_EXPLANATION
+,111,2017,BORREGO SPRINGS,7-024.01,Single Annual Report,Entire Basin,18369,4701,0,13668,0,0,0,0,
+,135,2017,COASTAL PLAIN OF ORANGE COUNTY,8-001,Single Annual Report,Entire Basin,277636,277636,0,0,0,0,0,0,
+,106,2017,INDIO,7-021.01,Single Annual Report,Entire Basin,266247,216335,1419,46993,0,0,0,1500,"Groundwater extractions are mostly metered. Unmetered uses include other water use for domestic use (1,000 AFY in the East, 500 AFY in the West)."
+,92,2017,LIVERMORE VALLEY,2-010,Single Annual Report,Entire Basin,10801,10517,0,109,0,0,0,175,Golf
+,108,2017,LLAGAS AREA,3-003.01,Single Annual Report,Entire Basin,41100,18200,0,22900,0,0,0,0,
+,152,2017,MISSION CREEK,7-021.02,Single Annual Report,Entire Basin,13782,12407,261,614,0,0,0,500,Undetermined but estimated to be mostly urban use by minimal pumpers who are not required to report producton to Coachella Valley Water District  (<25 AFY) or to Desert Water Agency (<10 AFY)
+,94,2017,NILES CONE,2-009.01,Single Annual Report,Entire Basin,20693,13434,2176,127,0,0,0,4958,"""Non-Revenue Water,"" ""Desal to SF Bay,"" and ""ARP"" were added as Water Use Sectors to account for water that could not be appropriately categorized under SGMA water use sectors. ""Non-Revenue Water"" is the amount of water supplied to the ACWD distribution system less the summation of meter readings for which customers were billed. Non-Revenue Water includes non-billed consumption (fire flows, distribution system flushing, etc.) plus real and apparent losses. ""Desal to SF Bay"" is brine and brine dilution water discharged from the Desalination Facility as wastewater and discharged to San Francisco Bay. ""ARP"" is the Aquifer Reclamation Program. Groundwater classified under ""ARP"" is water extracted to improve basin water quality, but is not supplied to the Desalination Facility for potable reuse."
+,110,2017,PAJARO VALLEY,3-002.01,Single Annual Report,Entire Basin,44892,7071,779,35582,0,0,0,1459,Rural Residential - Unmetered residential dwelling unit water users in rural settings
+,107,2017,SANTA CLARA,2-009.02,Single Annual Report,Entire Basin,74200,71100,0,3100,0,0,0,0,
+,123,2017,TAHOE SOUTH,6-005.01,Single Annual Report,Entire Basin,7319,7319,0,0,0,0,0,0,
+,129,2018,BORREGO SPRINGS,7-024.01,Single Annual Report,Entire Basin,17653,4647,0,13006,0,0,0,0,
+,145,2018,COASTAL PLAIN OF ORANGE COUNTY,8-001,Single Annual Report,Entire Basin,271266,271266,0,0,0,0,0,0,
+,171,2018,INDIO,7-021.01,Single Annual Report,Entire Basin,288308,234274,1522,51012,0,0,0,1500,"Groundwater extractions are mostly metered. Unmetered uses include other water use for domestic use (1,000 AFY in the East, 500 AFY in the West)."
+,115,2018,LIVERMORE VALLEY,2-010,Single Annual Report,Entire Basin,12091,11736,0,115,0,0,0,240,Golf
+,167,2018,LLAGAS AREA,3-003.01,Single Annual Report,Entire Basin,42600,19100,0,23500,0,0,0,0,
+,172,2018,MISSION CREEK,7-021.02,Single Annual Report,Entire Basin,14573,13200,262,611,0,0,0,500,Undetermined but estimated to be mostly urban use by minimal pumpers who are not required to report producton to Coachella Valley Water District  (<25 AFY) or to Desert Water Agency (<10 AFY)
+,116,2018,NILES CONE,2-009.01,Single Annual Report,Entire Basin,20637,13233,2280,120,0,0,0,5004,"""Non-Revenue Water,"" ""Desal to SF Bay,"" and ""ARP"" were added as Water Use Sectors to account for water that could not be appropriately categorized under SGMA water use sectors. ""Non-Revenue Water"" is the amount of water supplied to the ACWD distribution system less the summation of meter readings for which customers were billed. Non-Revenue Water includes non-billed consumption (fire flows, distribution system flushing, etc.) plus real and apparent losses. ""Desal to SF Bay"" is brine and brine dilution water discharged from the Desalination Facility as wastewater and discharged to San Francisco Bay. ""ARP"" is the Aquifer Reclamation Program. Groundwater classified under ""ARP"" is water extracted to improve basin water quality, but is not supplied to the Desalination Facility for potable reuse."
+,174,2018,PAJARO VALLEY,3-002.01,Single Annual Report,Entire Basin,50218,7112,1056,40652,0,0,0,1397,Rural Residential - Unmetered residential dwelling unit water users in rural settings
+,173,2018,SANTA CLARA,2-009.02,Single Annual Report,Entire Basin,79600,75900,0,3700,0,0,0,0,
+,158,2018,TAHOE SOUTH,6-005.01,Single Annual Report,Entire Basin,7677,7677,0,0,0,0,0,0,
+21,,2019,180/400 FOOT AQUIFER,3-004.01,Single Annual Report,Entire Basin,117800,12500,0,105100,0,0,0,200,Rural domestic extractions were estimated multiplying the approximate number of domestic users by 0.39 AF/yr.
+144,,2019,BIG VALLEY,5-004,Single Annual Report,Entire Basin,38400,100,0,37300,0,0,1000,0,
+,141,2019,BORREGO SPRINGS,7-024.01,Single Annual Report,Entire Basin,17379,4353,0,13026,0,0,0,0,
+10,,2019,CHOWCHILLA,5-022.05,Single Annual Report,Entire Basin,209970,6670,0,203300,0,0,0,0,
+,138,2019,COASTAL PLAIN OF ORANGE COUNTY,8-001,Single Annual Report,Entire Basin,301022,301022,0,0,0,0,0,0,
+13,,2019,CUYAMA VALLEY,3-013,Single Annual Report,Entire Basin,47200,300,0,46900,0,0,0,0,
+8,,2019,DELTA-MENDOTA,5-022.07,Single Annual Report,Entire Basin,270400,19800,6400,230600,13600,0,0,0,
+14,,2019,EASTERN SAN JOAQUIN,5-022.01,Single Annual Report,Entire Basin,738147,56747,0,681400,0,0,0,0,
+40,,2019,INDIAN WELLS VALLEY,6-054,Single Annual Report,Entire Basin,22810,6360,2690,10920,0,0,0,2840,"Other includes Federal Use: (1,460 AF) and Domestic/Mutual/Co-Ops: (1,380 AF)"
+,165,2019,INDIO,7-021.01,Single Annual Report,Entire Basin,263366,218285,1307,42274,0,0,0,1500,"Groundwater extractions are mostly metered. Unmetered uses include other water use for domestic use (1,000 AFY in the East, 500 AFY in the West)."
+29,,2019,KAWEAH,5-022.11,Single Annual Report,Entire Basin,686300,60000,21800,603900,0,236900,600,0,
+9,,2019,KERN COUNTY,5-022.14,Single Annual Report,Entire Basin,1284183,150892,0,1096779,0,0,0,36512,"Banking Recovery, exchanges and pumpins"
+26,,2019,KINGS,5-022.08,Single Annual Report,Entire Basin,1061594,156073,0,897723,0,381436,0,7798,James ID Wells pumped in McMullin Area GSA (agricultural use)
+32,,2019,LAS POSAS VALLEY,4-008,Single Annual Report,Entire Basin,20355,2069,0,18249,0,0,0,37,rural domestic
+,140,2019,LIVERMORE VALLEY,2-010,Single Annual Report,Entire Basin,14748,14419,0,113,0,0,0,216,Golf
+,100,2019,LLAGAS AREA,3-003.01,Single Annual Report,Entire Basin,42400,18900,0,23500,0,0,0,0,
+"20,22,25,33",,2019,MADERA,5-022.06,Multiple Annual Reports,Entire Basin,435112,28915,0,406197,0,0,0,0,Explanations for individual Annual Reports are available on the SGMA Portal (https://sgma.water.ca.gov/portal/gspar/submitted).
+12,,2019,MERCED,5-022.04,Single Annual Report,Entire Basin,637804,48467,0,576842,12495,0,0,0,
+,126,2019,MISSION CREEK,7-021.02,Single Annual Report,Entire Basin,13782,12313,331,638,0,0,0,500,Undetermined but estimated to be mostly urban use by minimal pumpers who are not required to report producton to Coachella Valley Water District  (<25 AFY) or to Desert Water Agency (<10 AFY)
+,99,2019,NILES CONE,2-009.01,Single Annual Report,Entire Basin,19885,12159,1959,106,0,0,0,5661,"""Non-Revenue Water,"" ""Desal to SF Bay,"" and ""ARP"" were added as Water Use Sectors to account for water that could not be appropriately categorized under SGMA water use sectors. ""Non-Revenue Water"" is the amount of water supplied to the ACWD distribution system less the summation of meter readings for which customers were billed. Non-Revenue Water includes non-billed consumption (fire flows, distribution system flushing, etc.) plus real and apparent losses. ""Desal to SF Bay"" is brine and brine dilution water discharged from the Desalination Facility as wastewater and discharged to San Francisco Bay. ""ARP"" is the Aquifer Reclamation Program. Groundwater classified under ""ARP"" is water extracted to improve basin water quality, but is not supplied to the Desalination Facility for potable reuse."
+24,,2019,NORTH YUBA,5-021.60,Single Annual Report,Entire Basin,41920,1810,0,39690,0,0,0,420,Rural residential
+30,,2019,OXNARD,4-004.02,Single Annual Report,Entire Basin,45382,17425,0,27896,0,0,0,61,Rural Domestic 
+,101,2019,PAJARO VALLEY,3-002.01,Single Annual Report,Entire Basin,43856,7041,907,34509,0,0,0,1399,Rural Residential - Unmetered residential dwelling unit water users in rural settings
+15,,2019,PASO ROBLES AREA,3-004.06,Single Annual Report,Entire Basin,62589,1729,0,55800,0,0,0,5060,Rural Domestic and Small Public Water System
+31,,2019,PLEASANT VALLEY,4-006,Single Annual Report,Entire Basin,6389,2409,0,3955,0,0,0,25,Rural Domestic
+,113,2019,SANTA CLARA,2-009.02,Single Annual Report,Entire Basin,67200,63600,0,3600,0,0,0,0,
+11,,2019,SANTA CRUZ MID-COUNTY,3-001,Single Annual Report,Entire Basin,4859,3620,0,336,0,0,0,903,private domestic and institutional
+23,,2019,SOUTH YUBA,5-021.61,Single Annual Report,Entire Basin,70290,9720,0,58840,0,0,0,1730,Rural residential
+,98,2019,TAHOE SOUTH,6-005.01,Single Annual Report,Entire Basin,7516,7516,0,0,0,0,0,0,
+28,,2019,TULARE LAKE,5-022.12,Single Annual Report,Entire Basin,480390,9500,0,444319,0,0,0,26420,Other is Municipal Usage from Cities and Communities.
+"34,35,36,37,38,39",,2019,TULE,5-022.13,Multiple Annual Reports,Entire Basin,498934,20900,0,463800,0,0,0,9234,Explanations for individual Annual Reports are available on the SGMA Portal (https://sgma.water.ca.gov/portal/gspar/submitted).
+27,,2019,WESTSIDE,5-022.09,Single Annual Report,Entire Basin,119000,0,0,119000,0,0,0,178,Small water systems (96 AF) and Domestic wells (82 AF)
+73,,2019,YUCAIPA,8-002.07,Single Annual Report,Entire Basin,12209,8343,0,217,0,0,3649,0,
+44,,2020,180/400 FOOT AQUIFER,3-004.01,Single Annual Report,Entire Basin,119300,12600,0,106500,0,0,0,200,Rural domestic extractions were estimated multiplying the approximate number of domestic users by 0.39 AF/yr.
+143,,2020,BIG VALLEY,5-004,Single Annual Report,Entire Basin,53600,100,0,52400,0,0,1100,0,
+,163,2020,BORREGO SPRINGS,7-024.01,Single Annual Report,Entire Basin,16637,3866,0,12771,0,0,0,0,
+47,,2020,CASTAC LAKE VALLEY,5-029,Single Annual Report,Entire Basin,982,981,0,1,0,0,0,0,
+54,,2020,CHOWCHILLA,5-022.05,Single Annual Report,Entire Basin,313430,9070,0,304360,0,0,0,0,
+,150,2020,COASTAL PLAIN OF ORANGE COUNTY,8-001,Single Annual Report,Entire Basin,276466,276466,0,0,0,0,0,0,
+49,,2020,CUYAMA VALLEY,3-013,Single Annual Report,Entire Basin,53600,300,0,53300,0,0,0,0,
+59,,2020,DELTA-MENDOTA,5-022.07,Single Annual Report,Entire Basin,394300,22600,6700,347100,17900,0,0,0,
+51,,2020,EASTERN SAN JOAQUIN,5-022.01,Single Annual Report,Entire Basin,790416,56271,0,734145,0,0,0,0,
+50,,2020,INDIAN WELLS VALLEY,6-054,Single Annual Report,Entire Basin,22000,6510,2820,9850,0,0,0,2820,"Other includes Federal Use: (1,410 AF) and Domestic/Mutual/Co-Ops: (1,410 AF)"
+,103,2020,INDIO,7-021.01,Single Annual Report,Entire Basin,266754,218811,1382,45061,0,0,0,1500,"Groundwater extractions are mostly metered. Unmetered uses include other water use for domestic use (1,000 AFY in the East, 500 AFY in the West)."
+60,,2020,KAWEAH,5-022.11,Single Annual Report,Entire Basin,1023200,60900,21800,940000,0,20700,450,0,
+63,,2020,KERN COUNTY,5-022.14,Single Annual Report,Entire Basin,1835054,152291,0,1342590,0,259658,0,80515,"use outside basin, lake level management, pumping for unspecified or multiple water uses"
+62,,2020,KINGS,5-022.08,Single Annual Report,Entire Basin,1353418,155029,0,1161511,0,95515,0,36878,James ID wells pumped in McMullin GSA
+58,,2020,LAS POSAS VALLEY,4-008,Single Annual Report,Entire Basin,27108,3836,0,23124,0,0,0,58,domestic
+,130,2020,LIVERMORE VALLEY,2-010,Single Annual Report,Entire Basin,16461,16102,0,112,0,0,0,247,Golf
+,162,2020,LLAGAS AREA,3-003.01,Single Annual Report,Entire Basin,41900,19600,0,22300,0,0,0,0,
+"48,55,61,68",,2020,MADERA,5-022.06,Multiple Annual Reports,Entire Basin,576308,35957,0,540451,0,0,0,0,Explanations for individual Annual Reports are available on the SGMA Portal (https://sgma.water.ca.gov/portal/gspar/submitted).
+42,,2020,MERCED,5-022.04,Single Annual Report,Entire Basin,701391,51496,0,635004,14891,0,0,0,
+,131,2020,MISSION CREEK,7-021.02,Single Annual Report,Entire Basin,14316,12721,355,740,0,0,0,500,Undetermined but estimated to be mostly urban use by minimal pumpers who are not required to report producton to Coachella Valley Water District  (<25 AFY) or to Desert Water Agency (<10 AFY)
+121,,2020,MOUND,4-004.03,Single Annual Report,Entire Basin,6536,2697,0,2639,0,0,1200,0,
+,122,2020,NILES CONE,2-009.01,Single Annual Report,Entire Basin,21454,14056,2302,68,0,0,0,5029,"""Non-Revenue Water,"" ""Desal to SF Bay,"" and ""ARP"" were added as Water Use Sectors to account for water that could not be appropriately categorized under SGMA water use sectors. ""Non-Revenue Water"" is the amount of water supplied to the ACWD distribution system less the summation of meter readings for which customers were billed. Non-Revenue Water includes non-billed consumption (fire flows, distribution system flushing, etc.) plus real and apparent losses. ""Desal to SF Bay"" is brine and brine dilution water discharged from the Desalination Facility as wastewater and discharged to San Francisco Bay. ""ARP"" is the Aquifer Reclamation Program. Groundwater classified under ""ARP"" is water extracted to improve basin water quality, but is not supplied to the Desalination Facility for potable reuse."
+52,,2020,NORTH YUBA,5-021.60,Single Annual Report,Entire Basin,77390,2000,0,74940,0,0,0,450,Rural residential
+56,,2020,OXNARD,4-004.02,Single Annual Report,Entire Basin,62489,25971,0,36424,0,0,0,94,domestic use
+,105,2020,PAJARO VALLEY,3-002.01,Single Annual Report,Entire Basin,47382,7541,1060,37367,0,0,0,1414,Rural Residential - Unmetered residential water users in rural settings
+46,,2020,PASO ROBLES AREA,3-004.06,Single Annual Report,Entire Basin,67269,1509,0,60700,0,0,0,5060,Rural Domestic and Small Public Water System
+57,,2020,PLEASANT VALLEY,4-006,Single Annual Report,Entire Basin,10748,4607,0,6100,0,0,0,41,domestic
+,120,2020,SANTA CLARA,2-009.02,Single Annual Report,Entire Basin,89900,86600,0,3300,0,0,0,0,
+45,,2020,SANTA CRUZ MID-COUNTY,3-001,Single Annual Report,Entire Basin,5188,3870,0,407,0,0,0,912,private domestic and institutional
+53,,2020,SOUTH YUBA,5-021.61,Single Annual Report,Entire Basin,147840,10180,0,135730,0,0,0,1930,Rural residential
+,117,2020,TAHOE SOUTH,6-005.01,Single Annual Report,Entire Basin,7538,7538,0,0,0,0,0,0,
+43,,2020,TULARE LAKE,5-022.12,Single Annual Report,Entire Basin,375293,27118,0,339474,0,0,0,8701,Rural Domestic
+"64,65,66,69,70,71",,2020,TULE,5-022.13,Multiple Annual Reports,Entire Basin,755550,17080,0,710500,0,0,0,13960,Explanations for individual Annual Reports are available on the SGMA Portal (https://sgma.water.ca.gov/portal/gspar/submitted).
+119,,2020,UPPER VENTURA RIVER,4-003.01,Single Annual Report,Entire Basin,5949,4299,0,450,0,0,1200,0,
+67,,2020,WESTSIDE,5-022.09,Single Annual Report,Entire Basin,400216,0,0,400000,0,0,0,216,Small water systems (134 AF) and Domestic wells (82 AF)
+80,,2020,YUCAIPA,8-002.07,Single Annual Report,Entire Basin,13200,8766,0,193,0,0,4241,0,
+122,,2021,180/400 FOOT AQUIFER,3-004.01,Single Annual Report,Entire Basin,127000,12300,0,114500,0,0,0,200,Rural domestic extractions were estimated multiplying the approximate number of domestic users by 0.39 AF/yr.
+141,,2021,ANDERSON,5-006.03,Single Annual Report,Entire Basin,28038,5839,0,22198,0,0,1,0,
+83,,2021,ANTELOPE,5-021.54,Single Annual Report,Entire Basin,27460,1000,0,26000,0,0,460,0,
+112,,2021,ATASCADERO AREA,3-004.11,Single Annual Report,Entire Basin,16700,10860,0,4500,0,0,0,1348,Public Water System and Rural Domestic
+96,,2021,BEDFORD-COLDWATER,8-004.02,Single Annual Report,Entire Basin,4450,3469,0,981,0,0,0,0,
+101,,2021,BIG VALLEY,5-004,Single Annual Report,Entire Basin,54000,100,0,52700,0,0,1200,0,
+100,,2021,BIG VALLEY,5-015,Single Annual Report,Entire Basin,24200,500,0,14200,0,0,6500,3000,Domestic wells
+,47,2021,BORREGO SPRINGS,7-024.01,Single Annual Report,Entire Basin,15248,3965,0,11283,0,0,0,0,
+87,,2021,BOWMAN,5-006.01,Single Annual Report,Entire Basin,9600,1300,0,6800,0,0,1500,0,
+92,,2021,BUTTE,5-021.70,Single Annual Report,Entire Basin,280700,2200,0,277900,0,0,0,600,Rural Residential
+102,,2021,BUTTE VALLEY,1-003,Single Annual Report,Entire Basin,88000,400,0,87600,0,0,0,0,
+127,,2021,CASTAC LAKE VALLEY,5-029,Single Annual Report,Entire Basin,334,334,0,0,0,0,0,0,
+133,,2021,CHOWCHILLA,5-022.05,Single Annual Report,Entire Basin,374360,9930,0,364430,0,0,0,0,
+,51,2021,COASTAL PLAIN OF ORANGE COUNTY,8-001,Single Annual Report,Entire Basin,273792,273792,0,0,0,0,0,0,
+135,,2021,COLUSA,5-021.52,Single Annual Report,Entire Basin,977230,10230,0,933000,34000,0,0,0,
+90,,2021,CORNING,5-021.51,Single Annual Report,Entire Basin,257200,3000,1500,252400,0,0,0,250,Rural Residential
+109,,2021,COSUMNES,5-022.16,Single Annual Report,Entire Basin,149300,16200,0,133100,0,0,0,0,
+107,,2021,CUYAMA VALLEY,3-013,Single Annual Report,Entire Basin,59300,300,0,59000,0,0,0,0,
+113,,2021,DELTA-MENDOTA,5-022.07,Single Annual Report,Entire Basin,562300,22100,7200,498000,35000,0,0,0,
+117,,2021,EAST BAY PLAIN,2-009.04,Single Annual Report,Entire Basin,3600,3600,0,0,0,0,0,0,
+137,,2021,EAST CONTRA COSTA,5-022.19,Single Annual Report,Entire Basin,42095,6853,0,35242,0,0,0,0,
+131,,2021,EAST SIDE AQUIFER,3-004.02,Single Annual Report,Entire Basin,82000,13200,0,68800,0,0,0,0,
+86,,2021,EASTERN SAN JOAQUIN,5-022.01,Single Annual Report,Entire Basin,809327,51487,0,757840,0,0,0,0,
+174,,2021,EEL RIVER VALLEY,1-010,Single Annual Report,Entire Basin,17188,1794,34,14848,0,0,0,512,Cannabis irrigation and domestic rural
+154,,2021,ELSINORE VALLEY,8-004.01,Single Annual Report,Entire Basin,0,3838,0,336,0,0,0,0,
+142,,2021,ENTERPRISE,5-006.04,Single Annual Report,Entire Basin,22089,9953,0,12135,0,0,1,0,
+116,,2021,FILLMORE,4-004.05,Single Annual Report,Entire Basin,56787,2626,0,54161,0,0,0,0,
+128,,2021,FOREBAY AQUIFER,3-004.04,Single Annual Report,Entire Basin,145800,7600,0,138200,0,0,0,0,
+160,,2021,INDIAN WELLS VALLEY,6-054,Single Annual Report,Entire Basin,20800,6530,2180,8900,0,0,0,3190,"Other includes Federal Use: (1,770 AF) and Domestic/Mutual/Co-Ops: (1,420 AF)"
+,54,2021,INDIO,7-021.01,Single Annual Report,Entire Basin,285351,236002,1288,46561,0,0,0,1500,"Groundwater extractions are mostly metered. Unmetered uses include other water use for domestic use (1,000 AFY in the East, 500 AFY in the West) and for uses on Tribal Trust land (Eagle Creek Golf Course 1,200 AFY and Greenleaf Power Station 1,100 AFY)"
+171,,2021,KAWEAH,5-022.11,Single Annual Report,Entire Basin,1036600,64600,21800,949700,0,5800,400,0,
+146,,2021,KERN COUNTY,5-022.14,Single Annual Report,Entire Basin,2471156,170084,0,1809934,0,427543,0,63594,"Banking Recovery, exchanges and pumpins"
+155,,2021,KINGS,5-022.08,Single Annual Report,Entire Basin,2293436,168571,0,2082555,0,21601,0,42310,-
+129,,2021,LANGLEY AREA,3-004.09,Single Annual Report,Entire Basin,1460,770,0,90,0,0,0,600,"Rural domestic pumping in the Langley Subbasin is estimated by applying a constant rate of 0.3 acre-feet per year (AF/yr.) to all non-vacant residential use parcels that are not located in the service area of a public drinking water system. There are approximately 2,016 non-vacant residential use parcels units located outside the service areas of public drinking water systems in the Subbasin."
+106,,2021,LAS POSAS VALLEY,4-008,Single Annual Report,Entire Basin,38566,4234,0,34208,0,0,0,124,Domestic
+,55,2021,LIVERMORE VALLEY,2-010,Single Annual Report,Entire Basin,22747,22356,0,122,0,0,0,269,Golf
+,59,2021,LLAGAS AREA,3-003.01,Single Annual Report,Entire Basin,43600,19300,0,24300,0,0,0,0,
+88,,2021,LOS MOLINOS,5-021.56,Single Annual Report,Entire Basin,43490,990,0,40000,0,0,2500,0,
+"134,163,173,175",,2021,MADERA,5-022.06,Multiple Annual Reports,Entire Basin,597030,39410,0,557620,0,119,0,0,Explanations for individual Annual Reports are available on the SGMA Portal (https://sgma.water.ca.gov/portal/gspar/submitted).
+108,,2021,MERCED,5-022.04,Single Annual Report,Entire Basin,800754,50663,0,734274,15817,0,0,0,
+,53,2021,MISSION CREEK,7-021.02,Single Annual Report,Entire Basin,15048,13495,354,699,0,0,0,500,Undetermined but estimated to be mostly urban use by minimal pumpers who are not required to report producton to Coachella Valley Water District  (<25 AFY) or to Desert Water Agency (<10 AFY)
+115,,2021,MODESTO,5-022.02,Single Annual Report,Entire Basin,329100,44700,0,284400,0,0,0,0,
+97,,2021,MONTEREY,3-004.10,Single Annual Report,Entire Basin,3892,3189,0,369,0,0,0,334,Rural Domestic (includes parks and golf courses)
+123,,2021,MOUND,4-004.03,Single Annual Report,Entire Basin,6215,2239,0,2783,0,0,1193,0,
+152,,2021,NAPA VALLEY,2-002.01,Single Annual Report,Entire Basin,27660,1550,0,17490,140,0,4680,3800,"Self-Supplied Users (e.g., Domestic wells)"
+,58,2021,NILES CONE,2-009.01,Single Annual Report,Entire Basin,21527,14241,2426,31,0,0,0,4829,"""Non-Revenue Water,"" ""Desal to SF Bay,"" and ""ARP"" were added as Water Use Sectors to account for water that could not be appropriately categorized under SGMA water use sectors. ""Non-Revenue Water"" is the amount of water supplied to the ACWD distribution system less the summation of meter readings for which customers were billed. Non-Revenue Water includes non-billed consumption (fire flows, distribution system flushing, etc.) plus real and apparent losses. ""Desal to SF Bay"" is brine and brine dilution water discharged from the Desalination Facility as wastewater and discharged to San Francisco Bay. ""ARP"" is the Aquifer Reclamation Program. Groundwater classified under ""ARP"" is water extracted to improve basin water quality, but is not supplied to the Desalination Facility for potable reuse."
+149,,2021,NORTH AMERICAN,5-021.64,Single Annual Report,Entire Basin,381300,58400,25000,290800,0,0,0,7100,Groundwater remediation pumping
+98,,2021,NORTH SAN BENITO,3-003.05,Single Annual Report,Entire Basin,107513,4468,0,103045,0,0,0,0,
+147,,2021,NORTH YUBA,5-021.60,Single Annual Report,Entire Basin,62650,2050,0,60200,0,0,0,400,Rural residential
+172,,2021,OJAI VALLEY,4-002,Single Annual Report,Entire Basin,4361,1497,80,2784,0,0,0,0,
+74,,2021,OXNARD,4-004.02,Single Annual Report,Entire Basin,70248,27299,0,42881,0,0,0,68,domestic use
+,52,2021,PAJARO VALLEY,3-002.01,Single Annual Report,Entire Basin,50974,7853,911,40788,0,0,0,1422,Rural Residential - Unmetered residential dwelling unit water users in rural settings
+138,,2021,PASO ROBLES AREA,3-004.06,Single Annual Report,Entire Basin,82113,1553,0,75500,0,0,0,5060,Rural Domestic and Small Public Water System
+157,,2021,PETALUMA VALLEY,2-001,Single Annual Report,Entire Basin,2993,385,182,1230,0,0,0,876,"Rural residential, non-municipal public water supply systems, unincorporated area commercial, and irrigated turf for unincorporated area golf courses, cemeteries, and playing fields"
+151,,2021,PIRU,4-004.06,Single Annual Report,Entire Basin,13361,457,0,12904,0,0,0,0,
+78,,2021,PLEASANT VALLEY,4-006,Single Annual Report,Entire Basin,14367,5395,0,8948,0,0,0,24,domestic
+89,,2021,RED BLUFF,5-021.50,Single Annual Report,Entire Basin,147900,5800,0,140000,0,0,2100,0,
+111,,2021,SAN ANTONIO CREEK VALLEY,3-014,Single Annual Report,Entire Basin,22600,1000,0,21400,0,0,0,170,Rural Domestic
+105,,2021,SAN GORGONIO PASS,7-021.04,Single Annual Report,Entire Basin,8340,6945,1364,0,0,0,0,0,
+110,,2021,SAN JACINTO,8-005,Single Annual Report,Entire Basin,23410,15462,0,7948,0,0,0,0,
+126,,2021,SAN LUIS OBISPO VALLEY,3-009,Single Annual Report,Entire Basin,6281,0,0,5030,0,0,0,1250,Small public water systems and rural domestic use
+140,,2021,SAN PASQUAL VALLEY,9-010,Single Annual Report,Entire Basin,6667,3,0,6664,0,0,0,0,
+,56,2021,SANTA CLARA,2-009.02,Single Annual Report,Entire Basin,95800,91500,0,4300,0,0,0,0,
+145,,2021,SANTA CLARA RIVER VALLEY EAST,4-004.07,Single Annual Report,Entire Basin,35824,24752,0,7610,0,0,0,3462,"Rural domestic use was estimated at 500 AF. A small public water system (non-urban) recorded use of 1,431 AF. Golf courses used 1,048 AF. An additional 483 AF was used for groundwater quality remediation pumping."
+99,,2021,SANTA CRUZ MID-COUNTY,3-001,Single Annual Report,Entire Basin,5649,4427,0,371,0,0,0,851,private domestic and institutional
+118,,2021,SANTA MARGARITA,3-027,Single Annual Report,Entire Basin,3031,2771,25,0,0,0,0,475,"Small water system, private domestic, and non-domestic uses including landscaping and landscape pond filling"
+114,,2021,SANTA MONICA,4-011.01,Single Annual Report,Entire Basin,7222,7040,0,0,0,0,0,180,Groundwater production for remediation of groundwater contamination zone.
+169,,2021,SANTA ROSA PLAIN,1-055.01,Single Annual Report,Entire Basin,19800,5320,0,6700,0,0,0,7780,"Rural residential, non-municipal public water supply systems, unincorporated area commercial, and irrigated turf for unincorporated area golf courses, cemeteries, and playing fields"
+"77,124,125",,2021,SANTA YNEZ RIVER VALLEY,3-015,Multiple Annual Reports,Entire Basin,43241,10872,0,32369,0,0,0,0,Explanations for individual Annual Reports are available on the SGMA Portal (https://sgma.water.ca.gov/portal/gspar/submitted).
+103,,2021,SCOTT RIVER VALLEY,1-005,Single Annual Report,Entire Basin,40000,1000,0,39000,0,0,0,0,
+104,,2021,SHASTA VALLEY,1-004,Single Annual Report,Entire Basin,35800,3500,0,32300,0,0,0,0,
+161,,2021,SIERRA VALLEY,5-012.01,Single Annual Report,Entire Basin,15702,849,0,14853,0,0,0,0,
+159,,2021,SOLANO,5-021.66,Single Annual Report,Entire Basin,240870,25960,0,214910,0,0,0,0,
+162,,2021,SONOMA VALLEY,2-002.02,Single Annual Report,Entire Basin,6716,446,0,4000,0,0,0,2270,"Rural residential, non-municipal public water supply systems, unincorporated area commercial, and irrigated turf for unincorporated area golf courses, cemeteries, and playing fields"
+136,,2021,SOUTH AMERICAN,5-021.65,Single Annual Report,Entire Basin,224100,57000,0,142300,0,0,0,24800,Remediation
+148,,2021,SOUTH YUBA,5-021.61,Single Annual Report,Entire Basin,155860,10340,0,144040,0,0,0,1480,Rural residential
+153,,2021,SUTTER,5-021.62,Single Annual Report,Entire Basin,188000,8700,100,168000,2500,0,0,8700,"Groundwater substitution transfers by Butte Water District, Garden Highway Mutual Water Company, and Sutter Extension Water District"
+,57,2021,TAHOE SOUTH,6-005.01,Single Annual Report,Entire Basin,6402,6402,0,0,0,0,0,0,
+95,,2021,TEMESCAL,8-002.09,Single Annual Report,Entire Basin,17325,16564,278,483,0,0,0,0,
+81,,2021,TRACY,5-022.15,Single Annual Report,Entire Basin,31000,6800,1000,22000,0,600,0,1000,Remediation
+150,,2021,TULARE LAKE,5-022.12,Single Annual Report,Entire Basin,652448,27105,0,617161,0,0,0,8221,Rural Domestic
+"164,165,166,167,168,170",,2021,TULE,5-022.13,Multiple Annual Reports,Entire Basin,887530,18130,0,852100,0,0,0,17300,Explanations for individual Annual Reports are available on the SGMA Portal (https://sgma.water.ca.gov/portal/gspar/submitted).
+85,,2021,TULELAKE,1-002.01,Single Annual Report,Entire Basin,52100,400,0,51700,0,0,0,0,
+82,,2021,TURLOCK,5-022.03,Single Annual Report,Entire Basin,557200,43400,0,513800,0,0,0,0,
+94,,2021,UKIAH VALLEY,1-052,Single Annual Report,Entire Basin,14097,2094,0,10702,0,0,0,1301,"Non-municipal domestic use: Water supplied by small water agencies to their customers that include agricultural, industrial, commercial, and domestic users."
+132,,2021,UPPER SAN LUIS REY VALLEY,9-007.01,Single Annual Report,Entire Basin,14002,1623,0,10253,0,0,2126,0,
+130,,2021,UPPER VALLEY AQUIFER,3-004.05,Single Annual Report,Entire Basin,122300,3000,0,119300,0,0,0,0,
+120,,2021,UPPER VENTURA RIVER,4-003.01,Single Annual Report,Entire Basin,4982,3655,0,483,0,0,844,0,
+91,,2021,VINA,5-021.57,Single Annual Report,Entire Basin,267980,23280,0,242400,0,0,0,2300,Rural Residential
+156,,2021,WESTSIDE,5-022.09,Single Annual Report,Entire Basin,632000,0,0,632000,0,0,0,130,Small water systems (48 AF) and Domestic wells (82 AF)
+158,,2021,WHITE WOLF,5-022.18,Single Annual Report,Entire Basin,68300,377,0,67923,0,0,0,0,
+93,,2021,WYANDOTTE CREEK,5-021.69,Single Annual Report,Entire Basin,46333,633,0,44600,0,0,0,1100,Rural Residential
+79,,2021,YOLO,5-021.67,Single Annual Report,Entire Basin,635000,7000,0,628000,0,0,0,0,
+84,,2021,YUCAIPA,8-002.07,Single Annual Report,Entire Basin,14924,10289,0,618,0,0,4017,0,
+186,,2022,180/400 FOOT AQUIFER,3-004.01,Single Annual Report,Entire Basin,130100,11300,0,118600,0,0,0,200,Rural domestic extractions were estimated multiplying the approximate number of domestic users by 0.39 AF/yr.
+201,,2022,ANDERSON,5-006.03,Single Annual Report,Entire Basin,22887,5595,0,17291,0,0,1,0,
+210,,2022,ANTELOPE,5-021.54,Single Annual Report,Entire Basin,26130,1700,0,23000,0,0,1300,130,Rural Residential
+337,,2022,ARROYO SANTA ROSA VALLEY,4-007,Single Annual Report,Entire Basin,2884,209,0,2672,0,0,0,0,
+182,,2022,ATASCADERO AREA,3-004.11,Single Annual Report,Entire Basin,16004,10242,0,4500,0,0,0,1262,Public Water System and Rural Domestic
+247,,2022,BEAR VALLEY,8-009,Single Annual Report,Entire Basin,2501,2370,0,0,0,0,0,131,Private well pumping
+221,,2022,BEDFORD-COLDWATER,8-004.02,Single Annual Report,Entire Basin,2754,1636,530,588,0,0,0,0,
+195,,2022,BIG VALLEY,5-004,Single Annual Report,Entire Basin,50400,100,0,49100,0,0,1200,0,
+216,,2022,BIG VALLEY,5-015,Single Annual Report,Entire Basin,22500,500,0,11800,0,0,7600,2600,Domestic Wells and small water systems are combined
+,66,2022,BORREGO SPRINGS,7-024.01,Single Annual Report,Entire Basin,13064,4078,0,8986,0,0,0,0,
+207,,2022,BOWMAN,5-006.01,Single Annual Report,Entire Basin,15110,580,0,12000,0,0,2100,430,Rural Residential
+244,,2022,BUTTE,5-021.70,Single Annual Report,Entire Basin,370700,2400,0,291900,19100,0,56600,700,Rural Residential
+176,,2022,BUTTE VALLEY,1-003,Single Annual Report,Entire Basin,81400,400,0,78000,3000,0,0,0,
+259,,2022,CASTAC LAKE VALLEY,5-029,Single Annual Report,Entire Basin,337,337,0,0,0,0,0,0,
+193,,2022,CHOWCHILLA,5-022.05,Single Annual Report,Entire Basin,409060,9360,0,399700,0,0,0,0,
+,64,2022,COASTAL PLAIN OF ORANGE COUNTY,8-001,Single Annual Report,Entire Basin,256510,256510,0,0,0,0,0,0,
+192,,2022,COLUSA,5-021.52,Single Annual Report,Entire Basin,899000,10900,0,860100,28000,0,0,0,
+209,,2022,CORNING,5-021.51,Single Annual Report,Entire Basin,242120,4600,0,230000,0,0,7300,220,Rural Residential
+254,,2022,COSUMNES,5-022.16,Single Annual Report,Entire Basin,139300,4800,11000,123500,0,0,0,0,
+261,,2022,CUYAMA VALLEY,3-013,Single Annual Report,Entire Basin,66700,300,0,66400,0,0,0,0,
+204,,2022,DELTA-MENDOTA,5-022.07,Single Annual Report,Entire Basin,563900,21900,6400,501600,34000,0,0,0,
+206,,2022,EAST BAY PLAIN,2-009.04,Single Annual Report,Entire Basin,3600,3600,0,0,0,0,0,0,
+253,,2022,EAST CONTRA COSTA,5-022.19,Single Annual Report,Entire Basin,19688,6500,0,13188,0,0,0,0,
+187,,2022,EAST SIDE AQUIFER,3-004.02,Single Annual Report,Entire Basin,82700,13800,0,68900,0,0,0,0,
+203,,2022,EASTERN SAN JOAQUIN,5-022.01,Single Annual Report,Entire Basin,818507,43854,0,774653,0,0,0,0,
+273,,2022,EEL RIVER VALLEY,1-010,Single Annual Report,Entire Basin,17046,1652,34,14848,0,0,0,512,Cannabis irrigation and domestic rural
+242,,2022,ELSINORE VALLEY,8-004.01,Single Annual Report,Entire Basin,0,6889,0,336,0,0,0,0,
+202,,2022,ENTERPRISE,5-006.04,Single Annual Report,Entire Basin,19389,9288,0,10100,0,0,1,0,
+215,,2022,FILLMORE,4-004.05,Single Annual Report,Entire Basin,44895,2510,0,42385,0,0,0,0,
+188,,2022,FOREBAY AQUIFER,3-004.04,Single Annual Report,Entire Basin,144200,7500,0,136700,0,0,0,0,
+184,,2022,INDIAN WELLS VALLEY,6-054,Single Annual Report,Entire Basin,21160,6060,2370,9570,0,0,0,3160,"Other includes Federal Use: (1,710 AF) and Domestic/Mutual/Co-Ops: (1,450 AF)"
+,63,2022,INDIO,7-021.01,Single Annual Report,Entire Basin,282079,232587,1498,46494,0,0,0,1500,"Groundwater extractions are mostly metered. Unmetered uses include other water use for domestic use (1,000 AFY in the East, 500 AFY in the West)."
+257,,2022,KAWEAH,5-022.11,Single Annual Report,Entire Basin,925400,60400,21800,842700,0,11900,400,0,
+270,,2022,KERN COUNTY,5-022.14,Single Annual Report,Entire Basin,2343630,163032,0,1554176,0,520995,0,105428,"Banking Recovery, exchanges and pumpins"
+249,,2022,KINGS,5-022.08,Single Annual Report,Entire Basin,1943168,161904,0,1744599,0,59990,0,36665,JID Wells Pumped in McMullin GSA
+190,,2022,LANGLEY AREA,3-004.09,Single Annual Report,Entire Basin,1460,850,0,10,0,0,0,600,"Rural domestic pumping is estimated by applying a constant rate of 0.3 acre-feet per year (AF/yr.) to all non-vacant residential use parcels that are not located in the service area of a public drinking water system. There are approximately 2,016 non-vacant residential use parcels units located outside the service areas of public drinking water systems in the Subbasin."
+241,,2022,LAS POSAS VALLEY,4-008,Single Annual Report,Entire Basin,40966,2878,0,38068,0,0,0,20,domestic
+,67,2022,LIVERMORE VALLEY,2-010,Single Annual Report,Entire Basin,21482,20484,0,752,0,0,0,246,Golf
+,61,2022,LLAGAS AREA,3-003.01,Single Annual Report,Entire Basin,41400,18000,0,23400,0,0,0,0,
+211,,2022,LOS MOLINOS,5-021.56,Single Annual Report,Entire Basin,54653,750,0,48000,0,0,5900,3,Rural Residential
+"196,236,262,269",,2022,MADERA,5-022.06,Multiple Annual Reports,Entire Basin,676498,34133,0,642365,0,176,0,0,Explanations for individual Annual Reports are available on the SGMA Portal (https://sgma.water.ca.gov/portal/gspar/submitted).
+180,,2022,MERCED,5-022.04,Single Annual Report,Entire Basin,882399,51578,0,820521,10300,0,0,0,
+191,,2022,MODESTO,5-022.02,Single Annual Report,Entire Basin,364100,53300,0,310800,0,0,0,0,
+212,,2022,MONTEREY,3-004.10,Single Annual Report,Entire Basin,4611,3979,0,298,0,0,0,334,Rural Domestic (includes parks and golf courses)
+222,,2022,MOUND,4-004.03,Single Annual Report,Entire Basin,5861,2391,0,2715,0,0,755,0,
+243,,2022,NAPA VALLEY,2-002.01,Single Annual Report,Entire Basin,25230,1520,0,14210,180,0,6260,3060,"Self-Supplied Users (e.g., Domestic wells)"
+,68,2022,NILES CONE,2-009.01,Single Annual Report,Entire Basin,19661,13238,2195,40,0,0,0,4188,"""Non-Revenue Water,"" ""Desal to SF Bay,"" and ""ARP"" were added as Water Use Sectors to account for water that could not be appropriately categorized under SGMA water use sectors. ""Non-Revenue Water"" is the amount of water supplied to the ACWD distribution system less the summation of meter readings for which customers were billed. Non-Revenue Water includes non-billed consumption (fire flows, distribution system flushing, etc.) plus real and apparent losses. ""Desal to SF Bay"" is brine and brine dilution water discharged from the Desalination Facility as wastewater and discharged to San Francisco Bay. ""ARP"" is the Aquifer Reclamation Program. Groundwater classified under ""ARP"" is water extracted to improve basin water quality, but is not supplied to the Desalination Facility for potable reuse."
+219,,2022,NORTH AMERICAN,5-021.64,Single Annual Report,Entire Basin,292900,54500,23400,207700,0,0,0,7300,Remediation 
+179,,2022,NORTH SAN BENITO,3-003.05,Single Annual Report,Entire Basin,105787,4148,0,101639,0,0,0,0,
+197,,2022,NORTH YUBA,5-021.60,Single Annual Report,Entire Basin,65933,1800,0,63543,0,0,0,590,Rural residential
+260,,2022,OJAI VALLEY,4-002,Single Annual Report,Entire Basin,3527,1531,69,1927,0,0,0,0,
+382,,2022,OWENS VALLEY,6-012.01,Single Annual Report,Entire Basin,98326,13852,0,50860,19467,0,8030,6117,LADWP Operations (unspecified)
+239,,2022,OXNARD,4-004.02,Single Annual Report,Entire Basin,71932,26417,0,45455,0,0,0,60,Domestic
+,65,2022,PAJARO VALLEY,3-002.01,Single Annual Report,Entire Basin,49826,7612,810,39978,0,0,0,1426,Rural Residential - Unmetered residential dwelling unit water users in rural settings
+199,,2022,PASO ROBLES AREA,3-004.06,Single Annual Report,Entire Basin,87200,1982,0,80200,0,0,0,5060,Rural Domestic and Small Public Water System
+226,,2022,PETALUMA VALLEY,2-001,Single Annual Report,Entire Basin,3345,344,220,1406,0,0,0,1375,"Rural residential, non-municipal public water supply systems, unincorporated area commercial, and irrigated turf for unincorporated area golf courses, cemeteries, and playing fields"
+217,,2022,PIRU,4-004.06,Single Annual Report,Entire Basin,9522,359,0,9163,0,0,0,0,
+240,,2022,PLEASANT VALLEY,4-006,Single Annual Report,Entire Basin,16414,3398,0,12930,0,0,0,87,Domestic
+277,,2022,PLEASANT VALLEY,5-022.10,Single Annual Report,Entire Basin,36500,0,0,36500,0,0,0,0,
+208,,2022,RED BLUFF,5-021.50,Single Annual Report,Entire Basin,122780,6400,0,110000,0,0,5400,980,Rural Residential
+185,,2022,SAN ANTONIO CREEK VALLEY,3-014,Single Annual Report,Entire Basin,22200,2870,0,19200,0,0,0,170,Rural Domestic
+237,,2022,SAN GABRIEL VALLEY,4-013,Single Annual Report,Entire Basin,533,334,0,201,0,0,0,0,
+223,,2022,SAN GORGONIO PASS,7-021.04,Single Annual Report,Entire Basin,7596,6231,1365,0,0,0,0,0,
+272,,2022,SAN JACINTO,8-005,Single Annual Report,Entire Basin,23909,16883,0,7026,0,0,0,0,
+205,,2022,SAN LUIS OBISPO VALLEY,3-009,Single Annual Report,Entire Basin,6360,0,0,5070,0,0,0,1290,Small public water systems and rural domestic use
+265,,2022,SAN PASQUAL VALLEY,9-010,Single Annual Report,Entire Basin,6359,3,0,6356,0,0,0,0,
+,60,2022,SANTA CLARA,2-009.02,Single Annual Report,Entire Basin,81000,77300,0,3700,0,0,0,0,
+183,,2022,SANTA CLARA RIVER VALLEY EAST,4-004.07,Single Annual Report,Entire Basin,38683,23206,0,11815,0,0,0,3662,"Rural domestic use was estimated at 500 AF. A small public water system (non-urban) recorded use of 2,322 AF. Golf courses used 343 AF. An additional 497 AF was used for groundwater quality remediation pumping."
+200,,2022,SANTA CRUZ MID-COUNTY,3-001,Single Annual Report,Entire Basin,5649,4026,0,406,0,0,0,934,private domestic and institutional
+250,,2022,SANTA MARGARITA,3-027,Single Annual Report,Entire Basin,2485,1994,25,0,0,0,0,466,"Small water system, private domestic, and non-domestic uses including landscaping and landscape pond filling"
+252,,2022,SANTA MONICA,4-011.01,Single Annual Report,Entire Basin,7280,7105,0,0,0,0,0,175,Groundwater production for remediation of groundwater contamination zone.
+235,,2022,SANTA ROSA PLAIN,1-055.01,Single Annual Report,Entire Basin,18638,5128,0,5620,0,0,0,7890,"Rural residential, non-municipal public water supply systems, unincorporated area commercial, and irrigated turf for unincorporated area golf courses, cemeteries, and playing fields"
+"213,214,274",,2022,SANTA YNEZ RIVER VALLEY,3-015,Multiple Annual Reports,Entire Basin,42560,10856,0,31704,0,0,0,0,Explanations for individual Annual Reports are available on the SGMA Portal (https://sgma.water.ca.gov/portal/gspar/submitted).
+178,,2022,SCOTT RIVER VALLEY,1-005,Single Annual Report,Entire Basin,30000,1000,0,29000,0,0,0,0,
+177,,2022,SHASTA VALLEY,1-004,Single Annual Report,Entire Basin,38000,3500,0,34500,0,0,0,0,
+218,,2022,SIERRA VALLEY,5-012.01,Single Annual Report,Entire Basin,11484,718,0,10766,0,0,0,0,
+251,,2022,SOLANO,5-021.66,Single Annual Report,Entire Basin,230000,26000,0,200000,0,0,0,0,
+234,,2022,SONOMA VALLEY,2-002.02,Single Annual Report,Entire Basin,6679,147,0,4120,0,0,0,2412,"Rural residential, non-municipal public water supply systems, unincorporated area commercial, and irrigated turf for unincorporated area golf courses, cemeteries, and playing fields"
+224,,2022,SOUTH AMERICAN,5-021.65,Single Annual Report,Entire Basin,204400,57500,0,126400,0,0,0,20500,Remediation
+198,,2022,SOUTH YUBA,5-021.61,Single Annual Report,Entire Basin,107960,12400,0,93340,0,0,0,2220,Rural residential
+227,,2022,SUTTER,5-021.62,Single Annual Report,Entire Basin,179700,9800,200,157000,2500,0,0,10200,"Groundwater substitution transfers by Butte Water District, Garden Highway Mutual Water Company, and Sutter Extension Water District"
+,69,2022,TAHOE SOUTH,6-005.01,Single Annual Report,Entire Basin,5111,5111,0,0,0,0,0,0,
+220,,2022,TEMESCAL,8-002.09,Single Annual Report,Entire Basin,15472,14930,444,98,0,0,0,0,
+230,,2022,TRACY,5-022.15,Single Annual Report,Entire Basin,28586,3819,519,21691,0,1519,0,1038,Remediation
+255,,2022,TULARE LAKE,5-022.12,Single Annual Report,Entire Basin,549066,24160,0,516716,0,0,0,8190,Rural Domestic
+"258,263,264,266,267,268",,2022,TULE,5-022.13,Multiple Annual Reports,Entire Basin,719338,16898,0,662300,0,0,0,40140,Explanations for individual Annual Reports are available on the SGMA Portal (https://sgma.water.ca.gov/portal/gspar/submitted).
+248,,2022,TULELAKE,1-002.01,Single Annual Report,Entire Basin,43800,300,0,43500,0,0,0,0,
+225,,2022,TURLOCK,5-022.03,Single Annual Report,Entire Basin,554400,38200,0,516200,0,0,0,0,
+228,,2022,UKIAH VALLEY,1-052,Single Annual Report,Entire Basin,5422,949,0,3326,0,0,0,1147,"Non-municipal domestic use is measured by members of the Upper Russian River Water Agency, which is a Joint Powers Authority that includes small water agencies that deliver water to customers that include agricultural, industrial, commercial, and domestic users"
+256,,2022,UPPER SAN LUIS REY VALLEY,9-007.01,Single Annual Report,Entire Basin,14350,1995,0,10229,0,0,2126,0,
+189,,2022,UPPER VALLEY AQUIFER,3-004.05,Single Annual Report,Entire Basin,125900,2800,0,123100,0,0,0,0,
+238,,2022,UPPER VENTURA RIVER,4-003.01,Single Annual Report,Entire Basin,4139,2642,0,405,0,0,888,0,
+245,,2022,VINA,5-021.57,Single Annual Report,Entire Basin,354700,22300,0,253800,0,0,76000,2600,Rural Residential
+233,,2022,WESTSIDE,5-022.09,Single Annual Report,Entire Basin,608000,0,0,608000,0,0,0,130,Small water systems (48 AF) and Domestic wells (82 AF)
+271,,2022,WHITE WOLF,5-022.18,Single Annual Report,Entire Basin,60200,569,0,59631,0,0,0,0,
+246,,2022,WYANDOTTE CREEK,5-021.69,Single Annual Report,Entire Basin,82000,700,0,43500,0,0,36300,1500,Rural Residential
+231,,2022,YOLO,5-021.67,Single Annual Report,Entire Basin,348864,10097,0,338767,0,0,0,0,
+194,,2022,YUCAIPA,8-002.07,Single Annual Report,Entire Basin,15191,10566,0,889,0,0,3736,0,
+359,,2023,180/400 FOOT AQUIFER,3-004.01,Single Annual Report,Entire Basin,95600,11000,0,84400,0,0,0,200,Rural domestic extractions were estimated multiplying the approximate number of domestic users by 0.39 AF/yr.
+332,,2023,ANDERSON,5-006.03,Single Annual Report,Entire Basin,17979,4392,0,10587,0,0,3000,0,
+367,,2023,ANTELOPE,5-021.54,Single Annual Report,Entire Basin,18000,400,0,17000,0,0,0,300,Rural Residential
+338,,2023,ARROYO SANTA ROSA VALLEY,4-007,Single Annual Report,Entire Basin,2766,167,0,2596,0,0,0,0,
+361,,2023,ATASCADERO AREA,3-004.11,Single Annual Report,Entire Basin,14100,9739,0,3100,0,0,0,1272,Public Water System and Rural Domestic
+288,,2023,BEAR VALLEY,8-009,Single Annual Report,Entire Basin,2034,1904,0,0,0,0,0,130,Private well pumping
+311,,2023,BEDFORD-COLDWATER,8-004.02,Single Annual Report,Entire Basin,2791,2223,530,568,0,0,0,0,
+310,,2023,BIG VALLEY,5-004,Single Annual Report,Entire Basin,43700,100,0,26220,0,0,17380,0,
+287,,2023,BIG VALLEY,5-015,Single Annual Report,Entire Basin,25500,494,0,10800,0,0,11800,2406,Domestic Wells and small water systems are combined
+,75,2023,BORREGO SPRINGS,7-024.01,Single Annual Report,Entire Basin,10430,3240,0,7190,0,0,0,0,
+366,,2023,BOWMAN,5-006.01,Single Annual Report,Entire Basin,5000,400,0,4000,0,0,0,700,Rural Residential
+292,,2023,BUTTE,5-021.70,Single Annual Report,Entire Basin,128900,1600,0,118700,8200,0,0,400,Rural Residential
+284,,2023,BUTTE VALLEY,1-003,Single Annual Report,Entire Basin,66400,400,0,63000,3000,0,0,0,
+375,,2023,CARPINTERIA,3-018,Single Annual Report,Entire Basin,4301,0,0,3331,0,0,0,970,Municipal public water systems and private pumping
+371,,2023,CASTAC LAKE VALLEY,5-029,Single Annual Report,Entire Basin,345,340,0,5,0,0,0,0,
+316,,2023,CHOWCHILLA,5-022.05,Single Annual Report,Entire Basin,96080,3460,0,92620,0,0,0,0,
+,80,2023,COASTAL PLAIN OF ORANGE COUNTY,8-001,Single Annual Report,Entire Basin,255123,255123,0,0,0,0,0,0,
+279,,2023,COLUSA,5-021.52,Single Annual Report,Entire Basin,577400,8700,0,552900,15800,0,0,0,
+370,,2023,CORNING,5-021.51,Single Annual Report,Entire Basin,175000,4000,0,171000,0,0,0,300,Rural Residential
+312,,2023,COSUMNES,5-022.16,Single Annual Report,Entire Basin,121600,4700,11000,105900,0,0,0,0,
+295,,2023,CUYAMA VALLEY,3-013,Single Annual Report,Entire Basin,49900,200,0,49700,0,0,0,0,
+331,,2023,DELTA-MENDOTA,5-022.07,Single Annual Report,Entire Basin,231300,20700,5800,181300,20600,2900,0,0,
+328,,2023,EAST BAY PLAIN,2-009.04,Single Annual Report,Entire Basin,3600,3600,0,0,0,0,0,0,
+343,,2023,EAST CONTRA COSTA,5-022.19,Single Annual Report,Entire Basin,116157,5599,0,31408,0,0,0,0,
+346,,2023,EAST SIDE AQUIFER,3-004.02,Single Annual Report,Entire Basin,80400,12900,0,67500,0,0,0,0,
+280,,2023,EASTERN SAN JOAQUIN,5-022.01,Single Annual Report,Entire Basin,805994,41854,0,764140,0,0,0,0,
+380,,2023,EEL RIVER VALLEY,1-010,Single Annual Report,Entire Basin,13987,1687,34,11754,0,0,0,512,Rural Domestic and Cannabis
+299,,2023,ELSINORE VALLEY,8-004.01,Single Annual Report,Entire Basin,0,5063,0,336,0,0,0,0,
+333,,2023,ENTERPRISE,5-006.04,Single Annual Report,Entire Basin,13581,5810,0,5771,0,0,2000,0,
+300,,2023,FILLMORE,4-004.05,Single Annual Report,Entire Basin,33469,1990,0,31479,0,0,0,0,
+348,,2023,FOREBAY AQUIFER,3-004.04,Single Annual Report,Entire Basin,116100,6700,0,109400,0,0,0,0,
+278,,2023,INDIAN WELLS VALLEY,6-054,Single Annual Report,Entire Basin,19150,5620,2570,8110,0,0,0,2850,"Other includes Federal Use: (1,380 AF) and Domestic/Mutual/Co-Ops: (1,470 AF)"
+,74,2023,INDIO,7-021.01,Single Annual Report,Entire Basin,256703,212917,1569,42878,0,0,0,1500,"Groundwater extractions are mostly metered. Unmetered usesd include other water use for domestic use (1,000 AFY in the East, 500 AFY in the West)."
+334,,2023,KAWEAH,5-022.11,Single Annual Report,Entire Basin,308100,57200,21800,228600,0,316800,400,0,
+363,,2023,KERN COUNTY,5-022.14,Single Annual Report,Entire Basin,925464,157979,0,589169,0,174504,0,3811,"Lake Management, Use outside of Subbasin"
+339,,2023,KINGS,5-022.08,Single Annual Report,Entire Basin,863611,147089,0,716301,0,651277,0,221,JID Wells Pumped in McMullin GSA
+349,,2023,LANGLEY AREA,3-004.09,Single Annual Report,Entire Basin,1790,560,0,630,0,0,0,600,"Rural domestic pumping is estimated by applying a constant rate of 0.3 acre-feet per year (AF/yr.) to all non-vacant residential use parcels that are not located in the service area of a public drinking water system. There are approximately 2,016 non-vacant residential use parcels units located outside the service areas of public drinking water systems in the Subbasin."
+327,,2023,LAS POSAS VALLEY,4-008,Single Annual Report,Entire Basin,25705,4553,0,21098,0,0,0,54,domestic
+,77,2023,LIVERMORE VALLEY,2-010,Single Annual Report,Entire Basin,9769,8736,0,813,0,0,0,220,Golf
+,73,2023,LLAGAS AREA,3-003.01,Single Annual Report,Entire Basin,43600,17700,0,25900,0,0,0,0,
+368,,2023,LOS MOLINOS,5-021.56,Single Annual Report,Entire Basin,31000,300,0,30000,0,0,0,40,Rural Residential
+"317,321,329,376",,2023,MADERA,5-022.06,Multiple Annual Reports,Entire Basin,272226,23119,0,249107,0,0,0,0,Explanations for individual Annual Reports are available on the SGMA Portal (https://sgma.water.ca.gov/portal/gspar/submitted).
+309,,2023,MERCED,5-022.04,Single Annual Report,Entire Basin,706717,44843,0,654814,7060,0,0,0,
+,71,2023,MISSION CREEK,7-021.02,Single Annual Report,Entire Basin,13489,12077,316,596,0,0,0,500,Undetermined but estimated to be mostly urban use by minimal pumpers who are not required to report production to Coachella Valley Water District  (<25 AFY) or to Desert Water Agency (<10 AFY)
+297,,2023,MODESTO,5-022.02,Single Annual Report,Entire Basin,300300,48000,0,252300,0,0,0,0,
+340,,2023,MONTECITO,3-049,Single Annual Report,Entire Basin,995,151,0,0,0,0,0,844,approx. 162 AF extracted by water companies within the Basin; approx. 682 AF extracted by private well operators that primarily use groundwater for landscape irrigation. 
+357,,2023,MONTEREY,3-004.10,Single Annual Report,Entire Basin,4477,3810,0,333,0,0,0,334,Rural Domestic (includes parks and golf courses)
+298,,2023,MOUND,4-004.03,Single Annual Report,Entire Basin,5168,1757,0,2500,0,0,911,0,
+341,,2023,NAPA VALLEY,2-002.01,Single Annual Report,Entire Basin,23560,1400,0,11330,330,0,7960,2540,"Self-Supplied Users (e.g., Domestic wells)"
+,79,2023,NILES CONE,2-009.01,Single Annual Report,Entire Basin,16592,10113,2055,82,0,0,0,4342,"""Non-Revenue Water,"" ""Desal to SF Bay,"" and ""ARP"" were added as Water Use Sectors to account for water that could not be appropriately categorized under SGMA water use sectors. ""Non-Revenue Water"" is the amount of water supplied to the ACWD distribution system less the summation of meter readings for which customers were billed. Non-Revenue Water includes non-billed consumption (fire flows, distribution system flushing, etc.) plus real and apparent losses. ""Desal to SF Bay"" is brine and brine dilution water discharged from the Desalination Facility as wastewater and discharged to San Francisco Bay. ""ARP"" is the Aquifer Reclamation Program. Groundwater classified under ""ARP"" is water extracted to improve basin water quality, but is not supplied to the Desalination Facility for potable reuse."
+344,,2023,NORTH AMERICAN,5-021.64,Single Annual Report,Entire Basin,244800,42100,18100,181100,0,0,0,3500,Groundwater remediation pumping
+306,,2023,NORTH SAN BENITO,3-003.05,Single Annual Report,Entire Basin,87478,4199,0,83280,0,0,0,0,
+322,,2023,NORTH YUBA,5-021.60,Single Annual Report,Entire Basin,38473,1660,0,36363,0,0,0,450,Rural residential
+290,,2023,OJAI VALLEY,4-002,Single Annual Report,Entire Basin,3351,1652,35,1664,0,0,0,0,
+481,,2023,OWENS VALLEY,6-012.01,Single Annual Report,Entire Basin,72760,13319,0,19098,2459,14104,1047,22733,LADWP Operations (unspecified)
+325,,2023,OXNARD,4-004.02,Single Annual Report,Entire Basin,51769,24764,0,26950,0,0,0,55,Domestic
+,78,2023,PAJARO VALLEY,3-002.01,Single Annual Report,Entire Basin,39204,7050,603,30099,0,0,0,1452,Rural Residential - Unmetered residential dwelling unit water users in rural settings
+356,,2023,PASO ROBLES AREA,3-004.06,Single Annual Report,Entire Basin,63800,1134,0,59600,0,0,0,3053,"Rural Domestic, Golf Course, and Small Public Water System"
+350,,2023,PETALUMA VALLEY,2-001,Single Annual Report,Entire Basin,2685,11,220,1090,0,0,0,1364,"Rural residential, non-municipal public water supply systems, unincorporated area commercial, and irrigated turf for unincorporated area golf courses, cemeteries, and playing fields"
+301,,2023,PIRU,4-004.06,Single Annual Report,Entire Basin,8146,618,0,7528,0,0,0,0,
+326,,2023,PLEASANT VALLEY,4-006,Single Annual Report,Entire Basin,10555,6744,0,3807,0,0,0,4,Domestic
+372,,2023,PLEASANT VALLEY,5-022.10,Single Annual Report,Entire Basin,32200,200,0,32000,0,0,0,0,
+369,,2023,RED BLUFF,5-021.50,Single Annual Report,Entire Basin,97000,4000,0,91000,0,0,0,2000,Rural Residential
+388,,2023,RIVERSIDE-ARLINGTON,8-002.03,Single Annual Report,Entire Basin,5750,5750,0,0,0,0,0,0,
+293,,2023,SAN ANTONIO CREEK VALLEY,3-014,Single Annual Report,Entire Basin,15300,1710,0,13400,0,0,0,180,Rural Domestic
+335,,2023,SAN GABRIEL VALLEY,4-013,Single Annual Report,Entire Basin,424,300,0,124,0,0,0,0,
+320,,2023,SAN GORGONIO PASS,7-021.04,Single Annual Report,Entire Basin,8050,6737,1314,0,0,0,0,0,
+345,,2023,SAN JACINTO,8-005,Single Annual Report,Entire Basin,27411,21920,0,5491,0,0,0,0,
+360,,2023,SAN LUIS OBISPO VALLEY,3-009,Single Annual Report,Entire Basin,5680,0,0,4530,0,0,0,1150,Small public water systems and rural domestic use
+314,,2023,SAN PASQUAL VALLEY,9-010,Single Annual Report,Entire Basin,4928,3,0,4925,0,0,0,0,
+,72,2023,SANTA CLARA,2-009.02,Single Annual Report,Entire Basin,68600,64500,0,4100,0,0,0,0,
+296,,2023,SANTA CLARA RIVER VALLEY EAST,4-004.07,Single Annual Report,Entire Basin,25822,15277,0,6102,0,0,0,4443,"Rural domestic use was estimated at 500 AF. A small public water system (non-urban) recorded use of 2,831 AF. Golf courses used 487 AF. An additional 625 AF was used for groundwater quality remediation pumping."
+319,,2023,SANTA CRUZ MID-COUNTY,3-001,Single Annual Report,Entire Basin,4901,3703,0,265,0,0,0,933,private domestic and institutional
+283,,2023,SANTA MARGARITA,3-027,Single Annual Report,Entire Basin,2361,1879,25,0,0,0,0,456,"Small water system, private domestic, and non-domestic uses including landscaping and landscape pond filling"
+330,,2023,SANTA MONICA,4-011.01,Single Annual Report,Entire Basin,2761,2586,0,0,0,0,0,175,Groundwater production for remediation of groundwater contamination zone.
+358,,2023,SANTA ROSA PLAIN,1-055.01,Single Annual Report,Entire Basin,17604,4342,0,5119,0,0,0,8143,"Rural residential, non-municipal public water supply systems, unincorporated area commercial, and irrigated turf for unincorporated area golf courses, cemeteries, and playing fields"
+"281,282,355",,2023,SANTA YNEZ RIVER VALLEY,3-015,Multiple Annual Reports,Entire Basin,38053,10174,0,27879,0,0,0,0,Explanations for individual Annual Reports are available on the SGMA Portal (https://sgma.water.ca.gov/portal/gspar/submitted).
+286,,2023,SCOTT RIVER VALLEY,1-005,Single Annual Report,Entire Basin,37000,1000,0,36000,0,0,0,0,
+285,,2023,SHASTA VALLEY,1-004,Single Annual Report,Entire Basin,36000,3500,0,32500,0,0,0,0,
+342,,2023,SIERRA VALLEY,5-012.01,Single Annual Report,Entire Basin,6557,1031,0,5526,0,0,0,0,
+313,,2023,SOLANO,5-021.66,Single Annual Report,Entire Basin,148230,26600,0,121630,0,0,0,0,
+354,,2023,SONOMA VALLEY,2-002.02,Single Annual Report,Entire Basin,6442,194,0,3796,0,0,0,2452,"Rural residential, non-municipal public water supply systems, unincorporated area commercial, and irrigated turf for unincorporated area golf courses, cemeteries, and playing fields"
+336,,2023,SOUTH AMERICAN,5-021.65,Single Annual Report,Entire Basin,182600,45100,0,109900,0,0,0,27600,Remediation
+323,,2023,SOUTH YUBA,5-021.61,Single Annual Report,Entire Basin,63251,10580,0,50671,0,0,0,2000,Rural residential
+294,,2023,SUTTER,5-021.62,Single Annual Report,Entire Basin,124800,9100,200,113900,1600,0,0,0,
+,70,2023,TAHOE SOUTH,6-005.01,Single Annual Report,Entire Basin,6438,6438,0,0,0,0,0,0,
+307,,2023,TEMESCAL,8-002.09,Single Annual Report,Entire Basin,15173,14681,406,86,0,0,0,0,
+318,,2023,TRACY,5-022.15,Single Annual Report,Entire Basin,8700,2500,700,3500,0,5800,0,2000,Remediation
+381,,2023,TULARE LAKE,5-022.12,Single Annual Report,Entire Basin,213863,22342,0,183491,0,0,0,8030,Rural Domestic
+"365,373,374,377,378,379",,2023,TULE,5-022.13,Multiple Annual Reports,Entire Basin,396810,20510,0,375500,0,0,0,4800,Explanations for individual Annual Reports are available on the SGMA Portal (https://sgma.water.ca.gov/portal/gspar/submitted).
+308,,2023,TULELAKE,1-002.01,Single Annual Report,Entire Basin,7600,300,0,7300,0,0,0,0,
+302,,2023,TURLOCK,5-022.03,Single Annual Report,Entire Basin,363900,35200,0,328700,0,0,0,0,
+364,,2023,UKIAH VALLEY,1-052,Single Annual Report,Entire Basin,5886,1939,0,3333,0,0,0,614,"Non-municipal domestic use is measured by members of the Upper Russian River Water Agency, which is a Joint Powers Authority that includes small water agencies that deliver water to customers that include agricultural, industrial, commercial, and domestic users"
+315,,2023,UPPER SAN LUIS REY VALLEY,9-007.01,Single Annual Report,Entire Basin,9424,2269,0,5029,0,0,2126,0,
+352,,2023,UPPER VALLEY AQUIFER,3-004.05,Single Annual Report,Entire Basin,102400,2700,0,99700,0,0,0,0,
+305,,2023,UPPER VENTURA RIVER,4-003.01,Single Annual Report,Entire Basin,4907,3285,0,359,0,0,1079,0,
+289,,2023,VINA,5-021.57,Single Annual Report,Entire Basin,242000,21900,0,218600,0,0,0,1500,Rural Residential
+353,,2023,WESTSIDE,5-022.09,Single Annual Report,Entire Basin,65000,0,0,65000,0,161930,0,130,Small water systems (48 AF) and Domestic wells (82 AF)
+351,,2023,WHITE WOLF,5-022.18,Single Annual Report,Entire Basin,22600,1405,0,21195,0,0,1600,0,
+291,,2023,WYANDOTTE CREEK,5-021.69,Single Annual Report,Entire Basin,34500,600,0,32900,0,0,0,1000,Rural Residential
+362,,2023,YOLO,5-021.67,Single Annual Report,Entire Basin,243100,12800,0,230300,0,0,0,0,
+347,,2023,YUCAIPA,8-002.07,Single Annual Report,Entire Basin,10962,7111,0,550,0,0,3302,0,
+420,,2024,180/400 FOOT AQUIFER,3-004.01,Single Annual Report,Entire Basin,103980,11430,0,91890,0,0,0,660,Estimated rural domestic pumping
+445,,2024,ANDERSON,5-006.03,Single Annual Report,Entire Basin,18552,4487,0,11065,0,0,3000,0,
+469,,2024,ANTELOPE,5-021.54,Single Annual Report,Entire Basin,19400,300,0,17700,0,0,0,1400,Rural Residential
+452,,2024,ARROYO SANTA ROSA VALLEY,4-007,Single Annual Report,Entire Basin,4439,2098,0,2338,0,0,0,0,
+438,,2024,ATASCADERO AREA,3-004.11,Single Annual Report,Entire Basin,14500,9691,0,3600,0,0,0,1159,Public Water System and Rural Domestic
+414,,2024,BEAR VALLEY,8-009,Single Annual Report,Entire Basin,1635,3102,0,0,0,0,0,0,
+403,,2024,BEDFORD-COLDWATER,8-004.02,Single Annual Report,Entire Basin,2722,1713,434,575,0,0,0,0,
+387,,2024,BIG VALLEY,5-004,Single Annual Report,Entire Basin,47500,0,0,0,0,0,0,0,
+478,,2024,BIG VALLEY,5-015,Single Annual Report,Entire Basin,25100,521,0,9200,0,0,13200,2206,Domestic Wells and small water systems are combined
+,88,2024,BORREGO SPRINGS,7-024.01,Single Annual Report,Entire Basin,10919,3601,0,7318,0,0,0,0,
+468,,2024,BOWMAN,5-006.01,Single Annual Report,Entire Basin,4900,600,0,2800,0,0,0,1500,Rural Residential
+436,,2024,BUTTE,5-021.70,Single Annual Report,Entire Basin,170600,2300,0,151200,15800,0,0,1300,Rural Residential
+432,,2024,BUTTE VALLEY,1-003,Single Annual Report,Entire Basin,67640,440,0,65400,1800,0,0,0,
+474,,2024,CARPINTERIA,3-018,Single Annual Report,Entire Basin,4547,982,0,3565,0,0,0,0,
+444,,2024,CASTAC LAKE VALLEY,5-029,Single Annual Report,Entire Basin,403,398,0,5,0,0,0,0,
+384,,2024,CHOWCHILLA,5-022.05,Single Annual Report,Entire Basin,256000,5500,0,250500,0,0,0,0,
+,91,2024,COASTAL PLAIN OF ORANGE COUNTY,8-001,Single Annual Report,Entire Basin,288226,288226,0,0,0,0,0,0,
+392,,2024,COLUSA,5-021.52,Single Annual Report,Entire Basin,562100,11000,0,535000,16100,0,0,0,
+433,,2024,CORNING,5-021.51,Single Annual Report,Entire Basin,153600,2300,0,149500,0,0,0,1800,Rural Residential
+409,,2024,COSUMNES,5-022.16,Single Annual Report,Entire Basin,120200,4800,11000,104400,0,0,0,0,
+398,,2024,CUYAMA VALLEY,3-013,Single Annual Report,Entire Basin,33800,200,0,33600,0,0,0,0,
+456,,2024,DELTA-MENDOTA,5-022.07,Single Annual Report,Entire Basin,278400,22200,6700,232800,16700,0,0,0,
+410,,2024,EAST BAY PLAIN,2-009.04,Single Annual Report,Entire Basin,3600,3600,0,0,0,0,0,0,
+464,,2024,EAST CONTRA COSTA,5-022.19,Single Annual Report,Entire Basin,83400,7200,0,18200,0,0,0,0,
+421,,2024,EAST SIDE AQUIFER,3-004.02,Single Annual Report,Entire Basin,81450,13140,0,67370,0,0,0,670,Estimated rural domestic pumping
+385,,2024,EASTERN SAN JOAQUIN,5-022.01,Single Annual Report,Entire Basin,799476,56650,0,742826,0,0,0,0,
+389,,2024,EEL RIVER VALLEY,1-010,Single Annual Report,Entire Basin,12859,1751,0,10694,0,0,0,414,Rural domestic use
+466,,2024,ELSINORE VALLEY,8-004.01,Single Annual Report,Entire Basin,0,1590,0,336,0,0,0,0,
+446,,2024,ENTERPRISE,5-006.04,Single Annual Report,Entire Basin,11995,6064,0,4931,0,0,1000,0,
+448,,2024,FILLMORE,4-004.05,Single Annual Report,Entire Basin,34036,3005,0,31031,0,0,0,0,
+422,,2024,FOREBAY AQUIFER,3-004.04,Single Annual Report,Entire Basin,118150,6880,0,111120,0,0,0,140,Estimated rural domestic pumping
+395,,2024,INDIAN WELLS VALLEY,6-054,Single Annual Report,Entire Basin,20840,6190,2810,8760,0,0,0,3080,"Other includes Federal Use: 1,620 AF and Domestic/Mutual/Co-Ops: 1,460 AF"
+,87,2024,INDIO,7-021.01,Single Annual Report,Entire Basin,267495,224479,1808,39708,0,0,0,1500,"Groundwater extractions are mostly metered. Unmetered usesd include other water use for domestic use (1,000 AFY in the East, 500 AFY in the West).
+
+Total Groundwater Extractions and Water Use Sector Urban contains 2,378 AFY of groundwater exported from the Subbasin within the Plan Area"
+472,,2024,KAWEAH,5-022.11,Single Annual Report,Entire Basin,580500,59200,21800,499000,0,38300,400,0,
+430,,2024,KERN COUNTY,5-022.14,Single Annual Report,Entire Basin,1179906,185830,0,946124,0,37623,0,10329,"Lake Management, Use outside of Subbasin"
+453,,2024,KINGS,5-022.08,Single Annual Report,Entire Basin,1256556,150474,0,1100042,0,200601,0,6040,JID Wells Pumped in McMullin GSA
+424,,2024,LANGLEY AREA,3-004.09,Single Annual Report,Entire Basin,1510,570,0,100,0,0,0,840,Estimated rural domestic pumping 
+417,,2024,LAS POSAS VALLEY,4-008,Single Annual Report,Entire Basin,26668,2728,0,23906,0,0,0,34,domestic
+,90,2024,LIVERMORE VALLEY,2-010,Single Annual Report,Entire Basin,6919,5865,0,836,0,0,0,218,Golf
+,85,2024,LLAGAS AREA,3-003.01,Single Annual Report,Entire Basin,44100,18900,0,25200,0,0,0,0,
+470,,2024,LOS MOLINOS,5-021.56,Single Annual Report,Entire Basin,18900,200,0,17700,0,0,0,1000,Rural Residential
+391,,2024,MADERA,5-022.06,Single Annual Report,Entire Basin,536400,25200,0,511200,0,0,0,0,
+405,,2024,MERCED,5-022.04,Single Annual Report,Entire Basin,569798,46358,0,510782,12658,0,0,0,
+,86,2024,MISSION CREEK,7-021.02,Single Annual Report,Entire Basin,13341,11931,281,629,0,0,0,500,Undetermined but estimated to be mostly urban use by minimal pumpers who are not required to report production to Coachella Valley Water District  (<25 AFY) or to Desert Water Agency (<10 AFY)
+412,,2024,MODESTO,5-022.02,Single Annual Report,Entire Basin,260800,50400,0,210400,0,0,0,0,
+402,,2024,MONTECITO,3-049,Single Annual Report,Entire Basin,943,123,0,0,0,0,0,820,approx. 161 AF extracted by water companies within the Basin; approx. 659 AF extracted by private well operators that primarily use groundwater for landscape irrigation. 
+476,,2024,MONTEREY,3-004.10,Single Annual Report,Entire Basin,4510,4068,0,310,0,0,0,133,Rural Domestic
+442,,2024,MOUND,4-004.03,Single Annual Report,Entire Basin,3454,545,0,1998,0,0,911,0,
+475,,2024,NAPA VALLEY,2-002.01,Single Annual Report,Entire Basin,16210,1550,0,11790,0,0,0,2870,"Self-Supplied Users (e.g., Domestic Wells)"
+,89,2024,NILES CONE,2-009.01,Single Annual Report,Entire Basin,16459,10495,2077,54,0,0,0,3832,"""Non-Revenue Water,"" ""Desal to SF Bay,"" and ""ARP"" were added as Water Use Sectors to account for water that could not be appropriately categorized under SGMA water use sectors. ""Non-Revenue Water"" is the amount of water supplied to the ACWD distribution system less the summation of meter readings for which customers were billed. Non-Revenue Water includes non-billed consumption (fire flows, distribution system flushing, etc.) plus real and apparent losses. ""Desal to SF Bay"" is brine and brine dilution water discharged from the Desalination Facility as wastewater and discharged to San Francisco Bay. ""ARP"" is the Aquifer Reclamation Program. Groundwater classified under ""ARP"" is water extracted to improve basin water quality, but is not supplied to the Desalination Facility for potable reuse."
+416,,2024,NORTH AMERICAN,5-021.64,Single Annual Report,Entire Basin,240200,32830,14070,190200,0,0,0,3100,Remediation 
+304,,2024,NORTH SAN BENITO,3-003.05,Single Annual Report,Entire Basin,99455,2723,0,96732,0,0,0,0,
+460,,2024,NORTH YUBA,5-021.60,Single Annual Report,Entire Basin,41450,1830,0,39170,0,0,0,450,Rural Residential
+386,,2024,OJAI VALLEY,4-002,Single Annual Report,Entire Basin,3834,1829,44,1961,0,0,0,0,
+419,,2024,OXNARD,4-004.02,Single Annual Report,Entire Basin,34108,15918,0,17099,0,0,0,1091,Domestic
+,83,2024,PAJARO VALLEY,3-002.01,Single Annual Report,Entire Basin,42681,7024,548,33655,0,0,0,1454,Rural Residential - Unmetered residential dwelling unit water users in rural settings
+399,,2024,PASO ROBLES AREA,3-004.06,Single Annual Report,Entire Basin,75100,1044,0,70900,0,0,0,3134,"Rural Domestic, Golf Course, and Small Public Water System"
+440,,2024,PETALUMA VALLEY,2-001,Single Annual Report,Entire Basin,2701,11,292,1104,0,0,0,1294,"Rural residential, non-municipal public water supply systems, unincorporated area commercial, and irrigated turf for unincorporated area golf courses, cemeteries, and playing fields"
+449,,2024,PIRU,4-004.06,Single Annual Report,Entire Basin,7962,666,0,7296,0,0,0,0,
+415,,2024,PLEASANT VALLEY,4-006,Single Annual Report,Entire Basin,4579,2846,0,1675,0,0,0,58,Domestic
+401,,2024,PLEASANT VALLEY,5-022.10,Single Annual Report,Entire Basin,28604,200,0,24143,0,3488,0,973,"Domestic Well Users, and Evaportaion Loss"
+471,,2024,RED BLUFF,5-021.50,Single Annual Report,Entire Basin,95800,3600,0,88900,0,0,0,3300,Rural Residential
+483,,2024,RIVERSIDE-ARLINGTON,8-002.03,Single Annual Report,Entire Basin,5750,5750,0,0,0,0,0,0,
+406,,2024,SAN ANTONIO CREEK VALLEY,3-014,Single Annual Report,Entire Basin,14000,690,0,13100,0,0,0,180,Rural Domestic
+429,,2024,SAN GABRIEL VALLEY,4-013,Single Annual Report,Entire Basin,458,310,0,148,0,0,0,0,
+455,,2024,SAN GORGONIO PASS,7-021.04,Single Annual Report,Entire Basin,9650,8362,1287,0,0,0,0,0,
+459,,2024,SAN JACINTO,8-005,Single Annual Report,Entire Basin,27521,20613,0,6784,0,0,0,124,Extraction from the Expanded Groundwater Extraction and Treatment System (EGETS) wells located at March Air Reserve Base.
+441,,2024,SAN LUIS OBISPO VALLEY,3-009,Single Annual Report,Entire Basin,5760,0,0,4600,0,0,0,1160,Small public water systems and rural domestic use
+437,,2024,SAN PASQUAL VALLEY,9-010,Single Annual Report,Entire Basin,5293,3,0,5290,0,0,0,0,
+,84,2024,SANTA CLARA,2-009.02,Single Annual Report,Entire Basin,82900,78900,0,4000,0,0,0,0,
+390,,2024,SANTA CLARA RIVER VALLEY EAST,4-004.07,Single Annual Report,Entire Basin,21194,13613,0,3620,0,0,0,3961,"Rural domestic use was estimated at 500 AF. A small public water system (non-urban) recorded use of 2,394 AF. Golf courses used 497 AF. An additional 570 AF was used for groundwater quality remediation pumping."
+426,,2024,SANTA CRUZ MID-COUNTY,3-001,Single Annual Report,Entire Basin,4751,3569,0,315,0,0,0,867,private domestic and institutional
+396,,2024,SANTA MARGARITA,3-027,Single Annual Report,Entire Basin,2348,1874,32,0,0,0,0,442,"Small water system, private domestic, and non-domestic uses including landscaping and landscape pond filling"
+462,,2024,SANTA MONICA,4-011.01,Single Annual Report,Entire Basin,5377,5242,0,0,0,0,0,135,Groundwater production for remediation of groundwater contamination zone.
+394,,2024,SANTA ROSA PLAIN,1-055.01,Single Annual Report,Entire Basin,17898,4035,0,4951,0,0,0,8912,"Rural residential, non-municipal public water supply systems, unincorporated area commercial, and irrigated turf for unincorporated area golf courses, cemeteries, and playing fields"
+450,,2024,SANTA YNEZ RIVER VALLEY,3-015,Single Annual Report,Entire Basin,39458,8366,0,29256,0,0,0,1836,Domestic
+431,,2024,SCOTT RIVER VALLEY,1-005,Single Annual Report,Entire Basin,35720,1000,0,34720,0,0,0,0,
+427,,2024,SHASTA VALLEY,1-004,Single Annual Report,Entire Basin,41800,3500,0,38300,0,0,0,0,
+447,,2024,SIERRA VALLEY,5-012.01,Single Annual Report,Entire Basin,8766,953,0,7813,0,0,0,0,
+458,,2024,SOLANO,5-021.66,Single Annual Report,Entire Basin,148410,26730,0,121680,0,0,0,0,
+400,,2024,SONOMA VALLEY,2-002.02,Single Annual Report,Entire Basin,6572,179,0,3888,0,0,0,2505,"Rural residential, non-municipal public water supply systems, unincorporated area commercial, and irrigated turf for unincorporated area golf courses, cemeteries, and playing fields"
+425,,2024,SOUTH AMERICAN,5-021.65,Single Annual Report,Entire Basin,178000,41700,0,108000,0,0,0,28300,Remediation
+461,,2024,SOUTH YUBA,5-021.61,Single Annual Report,Entire Basin,62490,10700,0,49710,0,0,0,2080,Rural Residential
+454,,2024,SUTTER,5-021.62,Single Annual Report,Entire Basin,126500,8900,200,115900,1500,0,0,0,
+,82,2024,TAHOE SOUTH,6-005.01,Single Annual Report,Entire Basin,6894,5438,1510,0,0,0,0,0,
+404,,2024,TEMESCAL,8-002.09,Single Annual Report,Entire Basin,14566,14040,453,73,0,0,0,0,
+413,,2024,TRACY,5-022.15,Single Annual Report,Entire Basin,11300,4400,300,7100,0,2700,0,2200,Remediation
+477,,2024,TULARE LAKE,5-022.12,Single Annual Report,Entire Basin,355005,24031,0,322942,0,0,0,8032,other water
+480,,2024,TULE,5-022.13,Single Annual Report,Entire Basin,559742,17242,0,534000,0,0,0,8500,Water used for export
+411,,2024,TULELAKE,1-002.01,Single Annual Report,Entire Basin,7500,400,0,7100,0,0,0,0,
+407,,2024,TURLOCK,5-022.03,Single Annual Report,Entire Basin,363000,32500,0,330500,0,0,0,0,
+428,,2024,UKIAH VALLEY,1-052,Single Annual Report,Entire Basin,6352,1992,0,3865,0,2463,0,495,"Non-municipal domestic use is measured by members of the Upper Russian River Water Agency, which is a Joint Powers Authority that includes small water agencies that deliver water to customers that include agricultural, industrial, commercial, and domestic users."
+408,,2024,UPPER SAN LUIS REY VALLEY,9-007.01,Single Annual Report,Entire Basin,12898,2319,0,8453,0,0,2126,0,
+423,,2024,UPPER VALLEY AQUIFER,3-004.05,Single Annual Report,Entire Basin,105370,2600,0,102390,0,0,0,320,Estimated rural domestic pumping
+393,,2024,UPPER VENTURA RIVER,4-003.01,Single Annual Report,Entire Basin,6094,4499,0,195,0,0,1309,0,
+434,,2024,VINA,5-021.57,Single Annual Report,Entire Basin,243300,2200,0,218300,0,0,0,3000,Rural Residential
+473,,2024,WESTSIDE,5-022.09,Single Annual Report,Entire Basin,82000,0,0,82000,0,0,0,130,Small water systems and domestic use
+439,,2024,WHITE WOLF,5-022.18,Single Annual Report,Entire Basin,30297,4,0,29472,0,0,821,0,
+435,,2024,WYANDOTTE CREEK,5-021.69,Single Annual Report,Entire Basin,33900,300,0,32800,0,0,0,800,Rural Residential
+463,,2024,YOLO,5-021.67,Single Annual Report,Entire Basin,305600,11900,0,293700,0,0,0,0,
+457,,2024,YUCAIPA,8-002.07,Single Annual Report,Entire Basin,12060,7309,0,246,0,0,4505,0,

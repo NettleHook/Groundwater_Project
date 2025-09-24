@@ -25,30 +25,28 @@ filter(water_cleaning, WUS_AGRICULTURAL > TOTAL_WATER_USE)
 filter(water_cleaning, WUS_URBAN > TOTAL_WATER_USE)
 #turns out there's none for WUS_URBAN
 
-
 #checking sum of values:
 water_cleaning_with_check <- water_cleaning %>%
   mutate(
-    #sometimes WUS_OTHER is additional usage
     sum_used_up = WUS_AGRICULTURAL + WUS_INDUSTRIAL + WUS_URBAN + WUS_MANAGED_WETLANDS + WUS_NATIVE_VEGETATION + WUS_OTHER,
     total_water_and_other = WST_GROUNDWATER + WST_RECYCLED_WATER + WST_REUSED_WATER + WST_SURFACE_WATER + WST_OTHER,
     total = total_water_and_other - sum_used_up
   )
+#We have some strong outliers in the urban sections. Limit decided by examining scatter plot
+urban_outliers <- filter(water_cleaning_with_check, WUS_URBAN >= 200000 & WUS_AGRICULTURAL < 15000)
+
+water_cleaning_no_urban_outliers <- filter(water_cleaning_with_check, SUBBASIN_NUMBER != "8-001") 
+
 no_usage <- water_cleaning_with_check %>%
   filter(sum_used_up == 0)
-#repeat offenders-- need to dig in. Compare with groundwater extraction database, as that sometimes has entries
 
+#Compare with groundwater extraction
 groundwater <- read.csv("./data/groundwater_extraction.csv") %>%
   filter(SUBBASIN_NUMBER %in% no_usage$SUBBASIN_NUMBER)
 
 #BIG VALLEY is only one that also has empty entries in both datasets--likely unfinished report
 
-#however, the groundwater database only reports groundwater used in each sector, not all water
-
-#We have some strong outliers in the urban sections. Limit decided by examining scatter plot
-urban_outliers <- filter(water_cleaning_with_check, WUS_URBAN >= 200000 & WUS_AGRICULTURAL < 150000)
-
-water_cleaning_no_urban_outliers <- filter(water_cleaning_with_check, SUBBASIN_NUMBER != "8-001") 
+#groundwater database only reports groundwater used in each sector, not all water, so these records need to be excludeds
 
 water_clean <- anti_join(water_cleaning_no_urban_outliers, no_usage, by = c("SUBBASIN_NUMBER", "REPORT_YEAR"))
 
