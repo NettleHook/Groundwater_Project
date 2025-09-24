@@ -1,4 +1,5 @@
 # Agricultural Water Use Predictions with Urban Water Use
+Agricultural water use is harder to measure than urban water use due to limitations of the measuring techniques. This paper seeks to explore if measurements of urban water use can be used to predict measurements of agricultural water use with simple linear regression to see if recorded urban water use can be used to assess confidence in future agricultural water use measurements. Unfortunately, it was discovered that measured urban water use cannot accurately predict measured agricultural water use through a simple linear regression, though we still found evidence of a relation between urban water use and agricultural water use. We hope future research may be able to add more variables to create a model that can be used to assess measured agricultural water use.
 
 ## Data 
 
