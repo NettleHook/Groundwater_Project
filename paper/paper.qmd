@@ -5,7 +5,7 @@ author: "Catharina Castillo"
 thanks: "Project repository available at: [https://github.com/NettleHook/Groundwater_Project.git](https://github.com/NettleHook/Groundwater_Project.git)."
 date: today
 date-format: long
-abstract: "Agricultural water use is harder to measure than urban water use due to limitations of the measuring techniques. This paper seeks to explore if measurements of urban water use can be used to predict measurements of agricultural water use with simple linear regression to see if recorded urban water use can be used to assess confidence in future agricultural water use measurements. Unfortunately, it was discovered that measured urban water use cannot accurately predict measured agricultural water use through a simple linear regression, though we still found evidence of a relation between urban water use and agricultural water use. We hope future research may be able to add more variables to create a model that can be used to assess measured agricultural water use."
+abstract: "Agricultural water use is harder to measure than urban water use due to reduced accuracy associated with the remote sensing techniques used. This paper seeks to explore if measurements of urban water use can be used to predict measurements of agricultural water use with simple linear regression to see if recorded urban water use can be used to assess confidence in future agricultural water use measurements. Unfortunately, it was discovered that measured urban water use cannot accurately predict measured agricultural water use through a simple linear regression, though we still found evidence of a relation between urban water use and agricultural water use. We hope future research may be able to add more variables to create a model that can be used to assess measured agricultural water use."
 format: pdf
 bibliography: references.bib
 number-sections: true
@@ -17,18 +17,19 @@ number-sections: true
 #| message: false
 library(dplyr)
 library(ggplot2)
+library(scales)
 water_use <- read.csv("../data/total_water_use_clean.csv")
 ```
 
 # Introduction
 
-Historically, it has been harder to measure agricultural water usage than urban water usage. The infrastructure used in urban settings has allowed water to be measured directly using metering. The agricultural water use cannot always be measured directly. Instead, land use surveys are used to calculate water used based on factors such as amount of land and crops grown [@Cooley_2020]. Irrigation alone has been noted as one of the more unreliable measurements [@USGS].
+Historically, it has been harder to measure agricultural water usage than urban water usage. The infrastructure used in urban settings has allowed water to be measured directly using metering. While many farms do use sensors for direct measurements, the cost and time needed to deploy them across all agricultural fields for direct measurement is too great. Instead, land use surveys are used to calculate water use based on factors such as acreage of active fields and crops grown [@Cooley_2020]. Irrigation alone has been noted as one of the more unreliable measurements [@USGS].
 
 With recent technological advancements, such as micro sprinklers, more accurate measurements have been able to be taken. These have all arisen as a result of pushes for efficiency caused by drought concerns in California [@PBS_newshour]. The use of satellite and aerial imagery has also added another method of tracking water use across all sectors [@ABC10_Knight_2023].
 
 It is important to have accurate measurements of water usage across sectors, as this information helps to predict future water usage and allows us to track progress towards sustainability. [@SGMA]
 
-This paper seeks to explore if we can use the measured urban water usage to estimate the agricultural water usage using linear regression. While this can't replace current methods of measuring agricultural water usage, an estimate can help assess the confidence in the measurement taken.
+This paper seeks to explore if we can use the measured urban water usage to estimate the agricultural water usage using linear regression. While this can't replace current methods of measuring agricultural water usage, an estimate can help assess the confidence in the measurements taken.
 
 In @sec-data, we will explain the data used. In @sec-method, we will introduce the linear regression model. Finally, in @sec-results we will lay out our results and in @sec-discussion we will discuss the implications and future steps.
 
@@ -36,9 +37,11 @@ In @sec-data, we will explain the data used. In @sec-method, we will introduce t
 
 We will begin by using the Total Water Use dataset provided by the Groundwater Sustainability Plan Annual Report datasets submitted to [data.ca.gov](https://data.ca.gov/dataset/groundwater-sustainability-plan-annual-report-data/resource/d361ff20-b713-4f57-b3a4-65400933b0a1?inner_span=True)
 
-The data provided is sourced through Groundwater Sustainability Agencies and Alternative Agencies as part of the Groundwater Sustainability Plan. Every year, each basin agency submits a report to the Department of Water Resources through the [Sustainable Groundwater Management Act's Portal](https://sgma.water.ca.gov/portal/#portal/#intro). While the organizations are concerned with increasing sustainability of groundwater sources, the Total Water Use dataset they provide takes account of all water sources and water usage sectors, which makes it a good fit for our research.
+The data provided is sourced through Groundwater Sustainability Agencies and Alternative Agencies as part of the Groundwater Sustainability Plans. These agencies are local agencies developed to sustainably manage local groundwater. These agencies are required in areas with high and medium priority groundwater basins as defined by the Sustainable Groundwater Management Act, which aims to foster sustainable management of groundwater basins and facilitate data collection about groundwater. Areas with low priority basins may also form their own agencies. [@GSAs]
 
-Since the reported values are measured rather than the true values, so we are limited by the accuracy of the measurement tools, but hopefully the large number of samples should reduce the effect on the final result.
+The Groundwater Sustainability Plans are plans for how long-term sustainability will be attained for a basin. These plans are developed and outlined by the Groundwater Sustainability Agencies and Alternative Agencies. As part of this, every year, each agency submits a report to the Department of Water Resources through the [Sustainable Groundwater Management Act's Portal](https://sgma.water.ca.gov/portal/#portal/#intro). These reports make up the observations in the datasets. While the organizations are concerned with increasing sustainability of groundwater sources, the Total Water Use dataset they provide takes account of all water sources and water usage sectors, which makes it a good fit for our research.
+
+The reported values are measured rather than the true values, so we are limited by the accuracy of the measurement tools and methods being used, but hopefully the large number of samples should reduce the effect of potential errors on the final result. Additionally, due to where the Groundwater Sustainability Agencies and Alternative Agencies are required, the data gathered primarily comes from high and medium priority basin areas. We'll have to consider this fact in the application of our model when making predictions.
 
 Each record represents one annual report from one basin. All water usage and water sources are measured in acre-feet. The variables of interest for this paper are labelled "WUS_URBAN" and "WUS_AGRICULTURAL".
 
@@ -46,21 +49,22 @@ Each record represents one annual report from one basin. All water usage and wat
 
 "WUS_AGRICULTURAL" stands for "Water Use Sector Agriculture", and represents the total volume of water in acre-feet that was applied to the agricultural sector.
 
-There are other variables in this dataset tracking the volume of water applied to other sectors. These were used in aid of cleaning. 24 annual reports were excluded as reported volume of water was 0 for all sectors. 23 of these observations were cross-referenced with groundwater source and use measurements from the [Groundwater Extractions dataset](https://data.ca.gov/dataset/groundwater-sustainability-plan-annual-report-data/resource/36b030d4-9fc1-43dd-86e8-5451b0e41374) provided as part of the Groundwater Sustainability Plan. Entries with measurements for water use in the Groundwater Extractions dataset but not in the Total Water Use dataset were dropped. This included:  
-* 2021-2024 reports for subbasin 4-002  
-* 2022-2024 reports for subbasin 4-013  
-* 2022-2024 reports for subbasin 5-022.16  
-* 2021 and 2024 reports for subbasin 6-005.01  
-* 2022-2024 reports for subbasin 7-021.04  
+There are other variables in this dataset tracking the volume of water applied to other sectors. These were used in aid of cleaning. 24 annual reports were excluded as reported volume of water use was 0 for all sectors. 23 of these observations were cross-referenced with groundwater source and use measurements from the [Groundwater Extractions dataset](https://data.ca.gov/dataset/groundwater-sustainability-plan-annual-report-data/resource/36b030d4-9fc1-43dd-86e8-5451b0e41374) provided as part of the Groundwater Sustainability Plan. Entries with measurements for water use in the Groundwater Extractions dataset but not in the Total Water Use dataset were dropped. This included:  
+
+* 2021-2024 reports for basin 4-002  
+* 2022-2024 reports for basin 4-013  
+* 2022-2024 reports for basin 5-022.16  
+* 2021 and 2024 reports for basin 6-005.01  
+* 2022-2024 reports for basin 7-021.04  
 * 2017-2024 reports for 7-024.01  
 
-Finally, the 2024 report for subbasin 5-004 was excluded because it had no entries for water use in either dataset, which didn't match the reports of previous years.
+Finally, the 2024 report for basin 5-004 was excluded because it had no entries for water use in either dataset, which didn't match the reports of previous years.
 
-Some outliers with high values for urban water usage and extremely low values for agricultural water usage were excluded, as it was discovered that all of these records were from subbasin 8-001, which is a coastal, urbanized area. This is not the type of area relevant to our research.
+The basin numbering system referenced is standard in California.
 
-The subbasin numbering system referenced is standard in California.
+After removing these entries, we still have `r nrow(water_use)` annual basin water usage reports from 2017-2024 across `r length(unique(water_use$SUBBASIN_NUMBER))` sub-basins.
 
-After removing these entries, we still have `r nrow(water_use)` reports from 2017-2024.
+A scatter plot between agricultural water usage and urban water usage is shown in @fig-exploratory-scatter.
 
 ```{r fig-exploratory-scatter}
 #| echo: false
@@ -68,14 +72,24 @@ After removing these entries, we still have `r nrow(water_use)` reports from 201
 #| message: false
 #| fig-cap: "Scatter plot of urban water usage (x-axis) and agricultural water usage (y-axis). Both are measures of volume in units of acre-feet. The plot shows that there are many points in a vaguely linear fashion, though there are also many points at higher urban water use that may give our fit some trouble."
 ggplot(water_use, aes(WUS_URBAN, WUS_AGRICULTURAL)) +
+  coord_cartesian(xlim=c(0,300000)) +
   geom_point() +
+  scale_x_continuous(labels = label_number()) +
   labs(title = "Agricultural Water Usage against Urban Water Usage", x = "Urban Water Use (acre-feet)", y = "Agricultural Water Use (acre-feet)")
 
 ```
 
-# Model {#sec-method}
+Already we can see there are some significant deviations from a linear pattern These are likely caused by basin areas that are primarily agricultural, or primarily urban.
 
-We will be using a linear regression model with estimator equation: $$Y_i = b_0 + b_1 * X_i$$ Where $Y_i$ represents the estimated value for the agricultural water usage in acre-feet, $X_i$ represents the measured value for the urban water usage in acre-feet, $b_0$ is the estimator of the value of the agricultural water usage in acre-feet when we measure no urban water usage, and $b_1$ is the estimator of the change in agricultural water usage when we see a unit change in urban water usage($X_i$). This analysis has been implemented using the R-language [@R_language].
+# Methods {#sec-method}
+
+We will be using a linear regression model with equation: $$Y_i = \beta_0 + \beta_1 * X_i + \epsilon_i$$ Where $Y_i$ represents the estimated value for the agricultural water usage in acre-feet, $X_i$ represents the measured value for the urban water usage in acre-feet, $\beta_0$ is the expected value of the agricultural water usage in acre-feet when we measure no urban water usage, and $\beta_1$ is the expected change in agricultural water usage when we see a unit change in urban water usage($X_i$). $\epsilon_i$ represents the error term.
+
+We will also be conducting a hypothesis test to affirm that there is a statistically significant relationship between the agricultural water usage and urban water usage recorded in our sample. We will use the null hypothesis $\beta_1 = 0$ and alternate hypothesis $\beta_1 \not= 0$. We will the test statistic $t^* = \frac{b_1}{s\{b_1\}}$. Using a 95% confidence level, our test statistic will need to be compared with $t(1-\frac{\alpha}{2};n-2) = t(0.975; `r nrow(water_use)-2`) =  `r round(qt(0.975, nrow(water_use)-2),3)`$.
+
+We will also be examining the distribution of residuals against the fitted values, as the hypothesis test is only valid under certain assumptions We will be assuming that the relationship between errors and fitted values is linear, errors between each report are independent from each other, and that the errors have constant variance across all fitted values. The distribution of residuals against fitted values should reveal if any of these assumptions are broken.
+
+The analysis has been implemented using the R-language [@R_language].
 
 # Results {#sec-results}
 
@@ -98,23 +112,29 @@ From our model, we would expect to measure around `r format(water_model$coeffici
 #| message: false
 #| fig-cap: "Scatter plot of urban water usage (x-axis) and agricultural water usage (y-axis) once again, with the linear equation found by the regression plotted. Both axes measure volume in units of acre-feet."
 ggplot(water_use, aes(WUS_URBAN, WUS_AGRICULTURAL)) +
+  coord_cartesian(xlim=c(0,300000)) +
   geom_point() +
   geom_smooth(method = lm, se = FALSE) +
+  scale_x_continuous(labels = label_number()) +
   labs(title = "Agricultural Water Usage against Urban Water Usage", x = "Urban Water Use (acre-feet)", y = "Agricultural Water Use (acre-feet)")
 
 ```
 
+In @fig-lm-line-plot, we overlay the linear regression equation line over the scatter plot from @fig-exploratory-scatter. We can see that the points showing high urban water usage but low agricultural usage have had a significant effect on the line fit to our model.
+
+{{< pagebreak >}}
+
 Because the slope is so small relative to the scale of our variables and the equation obtained from the linear regression is a poor fit for the points (as seen in @fig-lm-line-plot), we performed a hypothesis test using the null hypothesis $\beta_1 = 0$ and alternate hypothesis $\beta_1 \not= 0$. 
 
-We used the test statistic $t^* = \frac{b_1}{s\{b_1\}} = \frac{`r round(water_model$coefficients[2], 3)`}{`r round(summary(water_model)$coefficients[2,2], 3)`} = `r round((water_model$coefficients[2]/summary(water_model)$coefficients[2,2]), 3)`$. We used a 95% confidence interval, so our test statistic will need to be compared with $t(1-\frac{\alpha}{2};n-2) = t(0.975; `r nrow(water_use)-2`) = `r round(pt(0.975, nrow(water_use)-2),3)`$. We can confirm that $|t^*|= `r round((water_model$coefficients[2]/summary(water_model)$coefficients[2,2]), 3)` > `r round(pt(0.975, nrow(water_use)-2),3)`$, so we reject the null hypothesis $\beta_1 = 0$.
-{{< pagebreak >}}
-By plotting the model residuals against $X_i$, we receive @fig-residuals-v-predictor.
+We calculated our test statistic $t^* = \frac{b_1}{s\{b_1\}} = \frac{`r round(water_model$coefficients[2], 3)`}{`r round(summary(water_model)$coefficients[2,2], 3)`} = `r round((water_model$coefficients[2]/summary(water_model)$coefficients[2,2]), 3)`$. We can confirm that $|t^*|= `r round((water_model$coefficients[2]/summary(water_model)$coefficients[2,2]), 3)` > `r round(qt(0.975, nrow(water_use)-2),3)`$, so we reject the null hypothesis $\beta_1 = 0$.
 
-```{r fig-residuals-v-predictor}
+By plotting the model residuals against the fitted values, we receive @fig-residuals-v-fitted.
+
+```{r fig-residuals-v-fitted}
 #| echo: false
 #| warning: false
 #| message: false
-#| fig-cap: "Scatter plot of the predictor variable (x-axis) and residuals(y-axis) for a simple linear regression with urban water usage as the predictor variable and agricultural water usage as the response variable."
+#| fig-cap: "Scatter plot of the fitted values (x-axis) and residuals (y-axis) for a simple linear regression with urban water usage as the predictor variable and agricultural water usage as the response variable."
 
 results <-data.frame(
   X = water_use$WUS_URBAN,
@@ -123,19 +143,24 @@ results <-data.frame(
   residuals = resid(water_model)
 )
 
-ggplot(results, aes(X, residuals)) + 
+ggplot(results, aes(Y_predicted, residuals)) + 
   geom_point() + 
-  labs(title = "Residuals against WUS_URBAN", x = "Predictor Variable", y = "Residuals")
+  scale_x_continuous(labels = label_number()) +
+  scale_y_continuous(labels = label_number()) +
+  labs(title = "Residuals against WUS_URBAN", x = "Predicted Values", y = "Residuals")
 ```
 
-Were our linear regression model appropriate for the data, we would see a fairly even spread of the data points around the residuals = 0 line. However, that isn't what we observed. There are several oddities:
+If our linear regression model is appropriate for the data, we should see a fairly even spread of the data points around the residuals = 0 line. However, there are several oddities:
 
 1.  Most of the points trend towards smaller values of the predictor variable.
 2.  There is a strong linear trend among some of the residuals.
 3.  Most of the points are negative. This is especially noticeable at the higher values for urban water usage.
 4.  There are some distinct clusters among the residuals.
 
-{{< pagebreak >}}
+All of these are indicators that the model is a poor predictor of agricultural water usage.
+
+Additionally, as there is a clear lack of linearity in the residuals, the validity of our hypothesis test is also called into question.
+
 
 # Discussion {#sec-discussion}
 
@@ -143,11 +168,16 @@ In this paper, we sought to determine if we could use measurements of urban wate
 
 When examining the results, we could note a general positive relation between the two variables, confirmed by our hypothesis test. However, an examination of the residuals has shown that this is not a good model to use if we want to predict the agricultural water usage with the urban water usage.
 
-In @fig-residuals-v-predictor, we noted many oddities, such as the significant number of negative residuals and a linear trend among the negative residuals. What is extremely odd, however, is that the scatter plot of the residuals against the predictor variable almost looks like a skewed version of @fig-exploratory-scatter.
+In @fig-residuals-v-fitted, we noted many oddities, such as the significant number of negative residuals and a linear trend among the negative residuals. Additionally, the scatter plot of the residuals against the predictor variable almost looks like a skewed version of @fig-exploratory-scatter, which might imply that little variance is explained by urban water use.
 
-We did also observe some clusters. In the future, we can add variables to our model to try to explain some of the grouping in the residuals. Research into the potential relation between urban water usage and agricultural usage has brought up several potential variables not included in this dataset, such as population and attitudes and legislation related to drought. Trends in urban water use and agricultural water use have been found in relation to both population and cultural attitudes post-drought. Urban water use has stayed relatively constant, despite growing populations [@Mount_Hanak_Peterson_2019]. Agricultural water use also hasn't seen as much change as expected [@Peterson_Escriva-Bou_Medellin-Azuara_Cole_2023].
+We did also observe some clusters. In the future, we can add variables to our model to try to explain some of the grouping in the residuals. Research into the potential relation between urban water usage and agricultural usage has brought up several potential variables not included in this dataset, such as population and attitudes and other legislation related to drought. Trends in urban water use and agricultural water use have been found in relation to both population and cultural attitudes post-drought. Urban water use has stayed relatively constant, despite growing populations [@Mount_Hanak_Peterson_2019]. Agricultural water use also hasn't seen as much change as expected [@Peterson_Escriva-Bou_Medellin-Azuara_Cole_2023].
 
-In conclusion, the measured urban water usage alone is not enough to predict agricultural water use. However, we may be able to leverage other variables such as drought-related attitudes to create a model that can give us a more accurate estimate of the agricultural water usage we can expect to see.
+There are also some limitations with the data we used. While total water use is reported regardless of source, the primary focus of the Groundwater Sustainability Agencies and Alternative Agencies that provide the data is to create a long-term sustainability for the groundwater basin they're responsible for. As a result, this data may not be directly taking into account other variables we may be interested in adding such as population and whether the area of concern is more urban or agricultural proportionally. If we want to take further steps into creating a model that can estimate agricultural water usage from urban water usage, we will have to find other data that can provide the variables we may be interested in adding.
+
+Additionally, as the data is primarily gathered from areas with high and medium priority groundwater basins, it only reflects select portions of California, as opposed to the state as a whole.
+
+In conclusion, the measured urban water usage alone is not enough to predict agricultural water use. However, we may be able to leverage other variables such as drought-related attitudes or urban-to-agricultural proportion classification to create a model that can give us a more accurate estimate of the agricultural water usage we can expect to see.
+
 {{< pagebreak >}}
 
 # References

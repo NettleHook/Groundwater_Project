@@ -32,10 +32,6 @@ water_cleaning_with_check <- water_cleaning %>%
     total_water_and_other = WST_GROUNDWATER + WST_RECYCLED_WATER + WST_REUSED_WATER + WST_SURFACE_WATER + WST_OTHER,
     total = total_water_and_other - sum_used_up
   )
-#We have some strong outliers in the urban sections. Limit decided by examining scatter plot
-urban_outliers <- filter(water_cleaning_with_check, WUS_URBAN >= 200000 & WUS_AGRICULTURAL < 15000)
-
-water_cleaning_no_urban_outliers <- filter(water_cleaning_with_check, SUBBASIN_NUMBER != "8-001") 
 
 no_usage <- water_cleaning_with_check %>%
   filter(sum_used_up == 0)
@@ -48,7 +44,7 @@ groundwater <- read.csv("./data/groundwater_extraction.csv") %>%
 
 #groundwater database only reports groundwater used in each sector, not all water, so these records need to be excludeds
 
-water_clean <- anti_join(water_cleaning_no_urban_outliers, no_usage, by = c("SUBBASIN_NUMBER", "REPORT_YEAR"))
+water_clean <- anti_join(water_cleaning_with_check, no_usage, by = c("SUBBASIN_NUMBER", "REPORT_YEAR"))
 
 write.csv(water_clean, './data/total_water_use_clean.csv')
           
